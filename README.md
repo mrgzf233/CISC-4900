@@ -20,3 +20,7 @@ software security topics
 
 My first task was to familiarize with the processing pipeline of parsing a knowledge area. 
 The input to the pipeline is the CS2013 pdf file, and the output is a JSON file for the selected knowledge area.
+
+Once I understand how the application works I will then manually map a small set of
+topics/software security topics, then the goal is to use it to train a machine learning
+model to map the rest.
