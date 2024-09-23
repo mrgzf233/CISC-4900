@@ -16,3 +16,7 @@ There are two major tasks for me:
 software security topics
 
 2. To enhance the web application when 1 is done
+
+
+My first task was to familiarize with the processing pipeline of parsing a knowledge area. 
+The input to the pipeline is the CS2013 pdf file, and the output is a JSON file for the selected knowledge area.
