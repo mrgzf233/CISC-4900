@@ -1,4 +1,4 @@
-# soloproject
+# 4900 Project
 CISC-4900 Project, supervised by Professor Hui Chen. 
 
 The files that are being uploaded here are the stuff I worked on in the supervised project: Webvulmap(Mapping Security Vulnerability between Computer Science Body of Knowledge). 
