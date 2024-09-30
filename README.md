@@ -6,6 +6,8 @@ The main repository is owned by my supervisor aka Professor Hui Chen, the public
 Please note that both repositories are the same, once the changes have been commited in the private repository it will then be done the same with the public one. 
 The reason behind on having two repositories is also because of privacy reasons.
 
+This is the project's website: https://secwebmap.streamlit.app
+
 The primary goal of the application is to help people look up mappings
 between Computer Science and Software Security topics. As an instructor,
 it can be useful to find the right software security topics to plug in a
