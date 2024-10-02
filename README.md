@@ -1,20 +1,44 @@
-# 4900 Project
-CISC-4900 Project, supervised by Professor Hui Chen. 
+# CISC 4900 Project
+
+# Description
+This is my CISC 4900 Project, supervised by Professor Hui Chen. 
 
 The files that are being uploaded here are the tasks I worked on in the supervised project: Webvulmap(Mapping Security Vulnerability between Computer Science Body of Knowledge). 
 The main repository is owned by my supervisor aka Professor Hui Chen, the public repository is linked here: https://github.com/RealVulnerabilityEdu/webvulmap/commits/main/
-Please note that both repositories are the same, once the changes have been commited in the private repository it will then be done the same with the public one. 
-The reason behind on having two repositories is also because of privacy reasons.
 
-This is the project's website: https://secwebmap.streamlit.app
+Project website: https://secwebmap.streamlit.app
 
-The primary goal of the application is to help people look up mappings
-between Computer Science and Software Security topics. As an instructor,
-it can be useful to find the right software security topics to plug in a
-class, and as a student you can look up and see which computer science
-might offer you an opportunity to learn a Software Security topic.
+Please note that both private and public repositories are the same, once the changes have been committed in the private repository it will then be done the same with the public repository. Afterwards I will then upload the files to this current repository.
+The reason behind having two repositories is because of privacy reasons.
 
-There are two major tasks for me:
+## Mapping Web App
+The web application maps between software security topics (CWEs and CVEs)
+and CS curriculum topics. It serves two main goals:
+
+1. It allows instructors or learners understand what prerequisite material is
+	 needed to help teach/learn about certain secure programming topics in terms
+	 of CWEs and CVEs, and
+2. It also helps them locate real world examples, such as CWEs and CVEs
+	 relevant to a course topic.
+
+With this tool, one can learn what common language (i.e. c++, SQL) and
+knowledge are associated with a known secure vulnerability (e.g., a CWE or a
+CVE) and follows up with web sources to learn more. For instance, learners are
+currently studying a topic in interested in their course, such as, Classic
+Buffer Overflow (a Knowledge Topic). This tool can informs the learners that
+this problem is commonly observed in programming languages like C/C++, and
+secure vulnerabilities caused by this problem is often categorized as CWE-120
+Classic Buffer Overflow. The tool links to CVE instances in this CWE, such as
+CVE-2000-1094, i.e.,  a Buffer Overflow bug in AOL Instant Messenger (AIM)
+before 4.3.2229 allows remote attackers to execute arbitrary commands via a
+"buddyicon" command with a long "src" argument (source:[https://nvd.nist.gov/vuln/detail/CVE-2000-1094](https://nvd.nist.gov/vuln/detail/CVE-2000-1094))
+
+## Technologies Used
+Python and HTML/CSS
+Generally, we will manually map a small set of topics/software security topic, and use it to train a machine learning model to map the rest.
+
+
+## Tasks that I will be doing
 
 1. To create the map between computer science knowledge topics and
 software security topics
@@ -22,10 +46,6 @@ software security topics
 2. To enhance the web application when 1 is done
 
 
-My first task was to familiarize with the processing pipeline of parsing a knowledge area. 
-The input to the pipeline is the CS2013 pdf file, and the output is a JSON file for the selected knowledge area.
-I will show the steps on how to parse the knowledge areas into the JSON file in the near future once I have more work done. 
+Task 1: Familiarize with the processing pipeline of parsing a knowledge area. The input to the pipeline is the CS2013 pdf file, and the output is a JSON file for the selected knowledge area.
 
-Once I understand how the application works I will then manually map a small set of
-topics/software security topics, then the goal is to use it to train a machine learning
-model to map the rest.
+Task 2: To develop a Python program that takes a JSON file as input. The program of the output is a single JSON object that contains all the KAs. This program should build upon the existing programs.
