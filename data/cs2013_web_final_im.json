@@ -1,0 +1,1326 @@
+{
+  "ka": "Information Management",
+  "short_ka": "IM",
+  "units": [
+    {
+      "ku": "Information Management Concepts",
+      "tiers": [
+        {
+          "tier": "Core-Tier1",
+          "hours": "1"
+        },
+        {
+          "tier": "Core-Tier2",
+          "hours": "2"
+        }
+      ],
+      "topics": [
+        {
+          "topic": "Information systems as socio-technical systems",
+          "tier": "Core-Tier1",
+          "subtopics": []
+        },
+        {
+          "topic": "Basic information storage and retrieval (IS&R) concepts",
+          "tier": "Core-Tier1",
+          "subtopics": []
+        },
+        {
+          "topic": "Information capture and representation",
+          "tier": "Core-Tier1",
+          "subtopics": []
+        },
+        {
+          "topic": "Supporting human needs: searching, retrieving, linking, browsing, navigating",
+          "tier": "Core-Tier1",
+          "subtopics": []
+        },
+        {
+          "topic": "Information management applications",
+          "tier": "Core-Tier2",
+          "subtopics": []
+        },
+        {
+          "topic": "Declarative and navigational queries, use of links",
+          "tier": "Core-Tier2",
+          "subtopics": []
+        },
+        {
+          "topic": "Analysis and indexing",
+          "tier": "Core-Tier2",
+          "subtopics": []
+        },
+        {
+          "topic": "Quality issues: reliability, scalability, efficiency, and effectiveness",
+          "tier": "Core-Tier2",
+          "subtopics": []
+        }
+      ],
+      "hours": [],
+      "outcomes": [
+        {
+          "number": "1",
+          "outcome": "Describe how humans gain access to information and data to support their needs.",
+          "mastery": "Familiarity",
+          "tier": "Core-Tier1",
+          "xref": null
+        },
+        {
+          "number": "2",
+          "outcome": "Describe the advantages and disadvantages of central organizational control over data.",
+          "mastery": "Assessment",
+          "tier": "Core-Tier1",
+          "xref": null
+        },
+        {
+          "number": "3",
+          "outcome": "Identify the careers/roles associated with information management (e.g., database administrator, data modeler, application developer, end-user).",
+          "mastery": "Familiarity",
+          "tier": "Core-Tier1",
+          "xref": null
+        },
+        {
+          "number": "4",
+          "outcome": "Compare and contrast information with data and knowledge.",
+          "mastery": "Assessment",
+          "tier": "Core-Tier1",
+          "xref": null
+        },
+        {
+          "number": "5",
+          "outcome": "Demonstrate uses of explicitly stored metadata/schema associated with data.",
+          "mastery": "Usage",
+          "tier": "Core-Tier1",
+          "xref": null
+        },
+        {
+          "number": "6",
+          "outcome": "Identify issues of data persistence for an organization.",
+          "mastery": "Familiarity",
+          "tier": "Core-Tier1",
+          "xref": null
+        },
+        {
+          "number": "7",
+          "outcome": "Critique an information application with regard to satisfying user information needs.",
+          "mastery": "Assessment",
+          "tier": "Core-Tier2",
+          "xref": null
+        },
+        {
+          "number": "8",
+          "outcome": "Explain uses of declarative queries.",
+          "mastery": "Familiarity",
+          "tier": "Core-Tier2",
+          "xref": null
+        },
+        {
+          "number": "9",
+          "outcome": "Give a declarative version for a navigational query.",
+          "mastery": "Familiarity",
+          "tier": "Core-Tier2",
+          "xref": null
+        },
+        {
+          "number": "10",
+          "outcome": "Describe several technical solutions to the problems related to information privacy, integrity, security, and preservation.",
+          "mastery": "Familiarity",
+          "tier": "Core-Tier2",
+          "xref": null
+        },
+        {
+          "number": "11",
+          "outcome": "Explain measures of efficiency (throughput, response time) and effectiveness (recall, precision).",
+          "mastery": "Familiarity",
+          "tier": "Core-Tier2",
+          "xref": null
+        },
+        {
+          "number": "12",
+          "outcome": "Describe approaches to scale up information systems.",
+          "mastery": "Familiarity",
+          "tier": "Core-Tier2",
+          "xref": null
+        },
+        {
+          "number": "13",
+          "outcome": "Identify vulnerabilities and failure scenarios in common forms of information systems.",
+          "mastery": "Usage",
+          "tier": "Core-Tier2",
+          "xref": null
+        }
+      ]
+    },
+    {
+      "ku": "Database Systems",
+      "tiers": [
+        {
+          "tier": "Core-Tier2",
+          "hours": "3"
+        }
+      ],
+      "topics": [
+        {
+          "topic": "Approaches to and evolution of database systems",
+          "tier": "Core-Tier2",
+          "subtopics": []
+        },
+        {
+          "topic": "Components of database systems",
+          "tier": "Core-Tier2",
+          "subtopics": []
+        },
+        {
+          "topic": "Design of core DBMS functions (e.g., query mechanisms, transaction management, buffer management, access methods)",
+          "tier": "Core-Tier2",
+          "subtopics": []
+        },
+        {
+          "topic": "Database architecture and data independence",
+          "tier": "Core-Tier2",
+          "subtopics": []
+        },
+        {
+          "topic": "Use of a declarative query language",
+          "tier": "Core-Tier2",
+          "subtopics": []
+        },
+        {
+          "topic": "Systems supporting structured and/or stream content",
+          "tier": "Core-Tier2",
+          "subtopics": []
+        },
+        {
+          "topic": "Approaches for managing large volumes of data (e.g., noSQL database systems, use of MapReduce).",
+          "tier": "Elective",
+          "subtopics": []
+        }
+      ],
+      "hours": [],
+      "outcomes": [
+        {
+          "number": "1",
+          "outcome": "Explain the characteristics that distinguish the database approach from the approach of programming with data files.",
+          "mastery": "Familiarity",
+          "tier": "Core-Tier2",
+          "xref": null
+        },
+        {
+          "number": "2",
+          "outcome": "Describe the most common designs for core database system components including the query optimizer, query executor, storage manager, access methods, and transaction processor.",
+          "mastery": "Familiarity",
+          "tier": "Core-Tier2",
+          "xref": null
+        },
+        {
+          "number": "3",
+          "outcome": "Cite the basic goals, functions, and models of database systems.",
+          "mastery": "Familiarity",
+          "tier": "Core-Tier2",
+          "xref": null
+        },
+        {
+          "number": "4",
+          "outcome": "Describe the components of a database system and give examples of their use.",
+          "mastery": "Familiarity",
+          "tier": "Core-Tier2",
+          "xref": null
+        },
+        {
+          "number": "5",
+          "outcome": "Identify major DBMS functions and describe their role in a database system.",
+          "mastery": "Familiarity",
+          "tier": "Core-Tier2",
+          "xref": null
+        },
+        {
+          "number": "6",
+          "outcome": "Explain the concept of data independence and its importance in a database system.",
+          "mastery": "Familiarity",
+          "tier": "Core-Tier2",
+          "xref": null
+        },
+        {
+          "number": "7",
+          "outcome": "Use a declarative query language to elicit information from a database.",
+          "mastery": "Usage",
+          "tier": "Core-Tier2",
+          "xref": null
+        },
+        {
+          "number": "8",
+          "outcome": "Describe facilities that datatbases provide supporting structures and/or stream (sequence) data, e.g., text.",
+          "mastery": "Familiarity",
+          "tier": "Core-Tier2",
+          "xref": null
+        },
+        {
+          "number": "9",
+          "outcome": "Describe major approaches to storing and processing large volumes of data.",
+          "mastery": "Familiarity",
+          "tier": "Elective",
+          "xref": null
+        }
+      ]
+    },
+    {
+      "ku": "Data Modeling",
+      "tiers": [
+        {
+          "tier": "Core-Tier2",
+          "hours": "4"
+        }
+      ],
+      "topics": [
+        {
+          "topic": "Data modeling",
+          "tier": null,
+          "subtopics": []
+        },
+        {
+          "topic": "Conceptual models (e.g., entity-relationship, UML diagrams)",
+          "tier": null,
+          "subtopics": []
+        },
+        {
+          "topic": "Spreadsheet models",
+          "tier": null,
+          "subtopics": []
+        },
+        {
+          "topic": "Relational data models",
+          "tier": null,
+          "subtopics": []
+        },
+        {
+          "topic": "Object-oriented models (cross-reference PL/Object-Oriented Programming)",
+          "tier": null,
+          "subtopics": []
+        },
+        {
+          "topic": "Semi-structured data model (expressed using DTD or XML Schema, for example)",
+          "tier": null,
+          "subtopics": []
+        }
+      ],
+      "hours": [],
+      "outcomes": [
+        {
+          "number": "1",
+          "outcome": "Compare and contrast appropriate data models, including internal structures, for different types of data.",
+          "mastery": "Assessment",
+          "tier": null,
+          "xref": null
+        },
+        {
+          "number": "2",
+          "outcome": "Describe concepts in modeling notation (e.g., Entity-Relation Diagrams or UML) and how they would be used.",
+          "mastery": "Familiarity",
+          "tier": null,
+          "xref": null
+        },
+        {
+          "number": "3",
+          "outcome": "Define the fundamental terminology used in the relational data model.",
+          "mastery": "Familiarity",
+          "tier": null,
+          "xref": null
+        },
+        {
+          "number": "4",
+          "outcome": "Describe the basic principles of the relational data model.",
+          "mastery": "Familiarity",
+          "tier": null,
+          "xref": null
+        },
+        {
+          "number": "5",
+          "outcome": "Apply the modeling concepts and notation of the relational data model.",
+          "mastery": "Usage",
+          "tier": null,
+          "xref": null
+        },
+        {
+          "number": "6",
+          "outcome": "Describe the main concepts of the OO model such as object identity, type constructors, encapsulation, inheritance, polymorphism, and versioning.",
+          "mastery": "Familiarity",
+          "tier": null,
+          "xref": null
+        },
+        {
+          "number": "7",
+          "outcome": "Describe the differences between relational and semi-structured data models.",
+          "mastery": "Assessment",
+          "tier": null,
+          "xref": null
+        },
+        {
+          "number": "8",
+          "outcome": "Give a semi-structured equivalent (e.g., in DTD or XML Schema) for a given relational schema.",
+          "mastery": "Usage",
+          "tier": null,
+          "xref": null
+        }
+      ]
+    },
+    {
+      "ku": "Indexing",
+      "tiers": {
+        "tier": "Elective",
+        "hours": null
+      },
+      "topics": [
+        {
+          "topic": "The impact of indices on query performance",
+          "tier": null,
+          "subtopics": []
+        },
+        {
+          "topic": "The basic structure of an index",
+          "tier": null,
+          "subtopics": []
+        },
+        {
+          "topic": "Keeping a buffer of data in memory",
+          "tier": null,
+          "subtopics": []
+        },
+        {
+          "topic": "Creating indexes with SQL",
+          "tier": null,
+          "subtopics": []
+        },
+        {
+          "topic": "Indexing text",
+          "tier": null,
+          "subtopics": []
+        },
+        {
+          "topic": "Indexing the web (e.g., web crawling)",
+          "tier": null,
+          "subtopics": []
+        }
+      ],
+      "hours": [],
+      "outcomes": [
+        {
+          "number": "1",
+          "outcome": "Generate an index file for a collection of resources.",
+          "mastery": "Usage",
+          "tier": null,
+          "xref": null
+        },
+        {
+          "number": "2",
+          "outcome": "Explain the role of an inverted index in locating a document in a collection.",
+          "mastery": "Familiarity",
+          "tier": null,
+          "xref": null
+        },
+        {
+          "number": "3",
+          "outcome": "Explain how stemming and stop words affect indexing.",
+          "mastery": "Familiarity",
+          "tier": null,
+          "xref": null
+        },
+        {
+          "number": "4",
+          "outcome": "Identify appropriate indices for given relational schema and query set.",
+          "mastery": "Usage",
+          "tier": null,
+          "xref": null
+        },
+        {
+          "number": "5",
+          "outcome": "Estimate time to retrieve information, when indices are used compared to when they are not used.",
+          "mastery": "Usage",
+          "tier": null,
+          "xref": null
+        },
+        {
+          "number": "6",
+          "outcome": "Describe key challenges in web crawling, e.g., detecting duplicate documents, determining the crawling frontier.",
+          "mastery": "Familiarity",
+          "tier": null,
+          "xref": null
+        }
+      ]
+    },
+    {
+      "ku": "Relational Databases",
+      "tiers": {
+        "tier": "Elective",
+        "hours": null
+      },
+      "topics": [
+        {
+          "topic": "Mapping conceptual schema to a relational schema",
+          "tier": null,
+          "subtopics": []
+        },
+        {
+          "topic": "Entity and referential integrity",
+          "tier": null,
+          "subtopics": []
+        },
+        {
+          "topic": "Relational algebra and relational calculus",
+          "tier": null,
+          "subtopics": []
+        },
+        {
+          "topic": "Relational Database design",
+          "tier": null,
+          "subtopics": []
+        },
+        {
+          "topic": "Functional dependency",
+          "tier": null,
+          "subtopics": []
+        },
+        {
+          "topic": "Decomposition of a schema; lossless-join and dependency-preservation properties of a decomposition",
+          "tier": null,
+          "subtopics": []
+        },
+        {
+          "topic": "Candidate keys, superkeys, and closure of a set of attributes",
+          "tier": null,
+          "subtopics": []
+        },
+        {
+          "topic": "Normal forms (BCNF)",
+          "tier": null,
+          "subtopics": []
+        },
+        {
+          "topic": "Multi-valued dependency (4NF)",
+          "tier": null,
+          "subtopics": []
+        },
+        {
+          "topic": "Join dependency (PJNF, 5NF)",
+          "tier": null,
+          "subtopics": []
+        },
+        {
+          "topic": "Representation theory",
+          "tier": null,
+          "subtopics": []
+        }
+      ],
+      "hours": [],
+      "outcomes": [
+        {
+          "number": "1",
+          "outcome": "Prepare a relational schema from a conceptual model developed using the entity- relationship model.",
+          "mastery": "Usage",
+          "tier": null,
+          "xref": null
+        },
+        {
+          "number": "2",
+          "outcome": "Explain and demonstrate the concepts of entity integrity constraint and referential integrity constraint (including definition of the concept of a foreign key).",
+          "mastery": "Usage",
+          "tier": null,
+          "xref": null
+        },
+        {
+          "number": "3",
+          "outcome": "Demonstrate use of the relational algebra operations from mathematical set theory (union, intersection, difference, and Cartesian product) and the relational algebra operations developed specifically for relational databases (select (restrict), project, join, and division).",
+          "mastery": "Usage",
+          "tier": null,
+          "xref": null
+        },
+        {
+          "number": "4",
+          "outcome": "Write queries in the relational algebra.",
+          "mastery": "Usage",
+          "tier": null,
+          "xref": null
+        },
+        {
+          "number": "5",
+          "outcome": "Write queries in the tuple relational calculus.",
+          "mastery": "Usage",
+          "tier": null,
+          "xref": null
+        },
+        {
+          "number": "6",
+          "outcome": "Determine the functional dependency between two or more attributes that are a subset of a relation.",
+          "mastery": "Assessment",
+          "tier": null,
+          "xref": null
+        },
+        {
+          "number": "7",
+          "outcome": "Connect constraints expressed as primary key and foreign key, with functional dependencies.",
+          "mastery": "Usage",
+          "tier": null,
+          "xref": null
+        },
+        {
+          "number": "8",
+          "outcome": "Compute the closure of a set of attributes under given functional dependencies.",
+          "mastery": "Usage",
+          "tier": null,
+          "xref": null
+        },
+        {
+          "number": "9",
+          "outcome": "Determine whether a set of attributes form a superkey and/or candidate key for a relation with given functional dependencies.",
+          "mastery": "Assessment",
+          "tier": null,
+          "xref": null
+        },
+        {
+          "number": "10",
+          "outcome": "Evaluate a proposed decomposition, to say whether it has lossless-join and dependency-preservation.",
+          "mastery": "Assessment",
+          "tier": null,
+          "xref": null
+        },
+        {
+          "number": "11",
+          "outcome": "Describe the properties of BCNF, PJNF, 5NF.",
+          "mastery": "Familiarity",
+          "tier": null,
+          "xref": null
+        },
+        {
+          "number": "12",
+          "outcome": "Explain the impact of normalization on the efficiency of database operations especially query optimization.",
+          "mastery": "Familiarity",
+          "tier": null,
+          "xref": null
+        },
+        {
+          "number": "13",
+          "outcome": "Describe what is a multi-valued dependency and what type of constraints it specifies.",
+          "mastery": "Familiarity",
+          "tier": null,
+          "xref": null
+        }
+      ]
+    },
+    {
+      "ku": "Query Languages",
+      "tiers": {
+        "tier": "Elective",
+        "hours": null
+      },
+      "topics": [
+        {
+          "topic": "Overview of database languages",
+          "tier": null,
+          "subtopics": []
+        },
+        {
+          "topic": "SQL (data definition, query formulation, update sublanguage, constraints, integrity)",
+          "tier": null,
+          "subtopics": []
+        },
+        {
+          "topic": "Selections",
+          "tier": null,
+          "subtopics": []
+        },
+        {
+          "topic": "Projections",
+          "tier": null,
+          "subtopics": []
+        },
+        {
+          "topic": "Select-project-join",
+          "tier": null,
+          "subtopics": []
+        },
+        {
+          "topic": "Aggregates and group-by",
+          "tier": null,
+          "subtopics": []
+        },
+        {
+          "topic": "Subqueries",
+          "tier": null,
+          "subtopics": []
+        },
+        {
+          "topic": "QBE and 4th-generation environments",
+          "tier": null,
+          "subtopics": []
+        },
+        {
+          "topic": "Different ways to invoke non-procedural queries in conventional languages",
+          "tier": null,
+          "subtopics": []
+        },
+        {
+          "topic": "Introduction to other major query languages (e.g., XPATH, SPARQL)",
+          "tier": null,
+          "subtopics": []
+        },
+        {
+          "topic": "Stored procedures",
+          "tier": null,
+          "subtopics": []
+        }
+      ],
+      "hours": [],
+      "outcomes": [
+        {
+          "number": "1",
+          "outcome": "Create a relational database schema in SQL that incorporates key, entity integrity, and referential integrity constraints.",
+          "mastery": "Usage",
+          "tier": null,
+          "xref": null
+        },
+        {
+          "number": "2",
+          "outcome": "Use SQL to create tables and retrieve (SELECT) information from a database.",
+          "mastery": "Usage",
+          "tier": null,
+          "xref": null
+        },
+        {
+          "number": "3",
+          "outcome": "Evaluate a set of query processing strategies and select the optimal strategy.",
+          "mastery": "Assessment",
+          "tier": null,
+          "xref": null
+        },
+        {
+          "number": "4",
+          "outcome": "Create a non-procedural query by filling in templates of relations to construct an example of the desired query result.",
+          "mastery": "Usage",
+          "tier": null,
+          "xref": null
+        },
+        {
+          "number": "5",
+          "outcome": "Embed object-oriented queries into a stand-alone language such as C++ or Java (e.g., SELECT Col.Method() FROM Object).",
+          "mastery": "Usage",
+          "tier": null,
+          "xref": null
+        },
+        {
+          "number": "6",
+          "outcome": "Write a stored procedure that deals with parameters and has some control flow, to provide a given functionality.",
+          "mastery": "Usage",
+          "tier": null,
+          "xref": null
+        }
+      ]
+    },
+    {
+      "ku": "Transaction Processing",
+      "tiers": {
+        "tier": "Elective",
+        "hours": null
+      },
+      "topics": [
+        {
+          "topic": "Transactions",
+          "tier": null,
+          "subtopics": []
+        },
+        {
+          "topic": "Failure and recovery",
+          "tier": null,
+          "subtopics": []
+        },
+        {
+          "topic": "Concurrency control",
+          "tier": null,
+          "subtopics": []
+        },
+        {
+          "topic": "Interaction of transaction management with storage, especially buffering",
+          "tier": null,
+          "subtopics": []
+        }
+      ],
+      "hours": [],
+      "outcomes": [
+        {
+          "number": "1",
+          "outcome": "Create a transaction by embedding SQL into an application program.",
+          "mastery": "Usage",
+          "tier": null,
+          "xref": null
+        },
+        {
+          "number": "2",
+          "outcome": "Explain the concept of implicit commits.",
+          "mastery": "Familiarity",
+          "tier": null,
+          "xref": null
+        },
+        {
+          "number": "3",
+          "outcome": "Describe the issues specific to efficient transaction execution.",
+          "mastery": "Familiarity",
+          "tier": null,
+          "xref": null
+        },
+        {
+          "number": "4",
+          "outcome": "Explain when and why rollback is needed and how logging assures proper rollback.",
+          "mastery": "Assessment",
+          "tier": null,
+          "xref": null
+        },
+        {
+          "number": "5",
+          "outcome": "Explain the effect of different isolation levels on the concurrency control mechanisms.",
+          "mastery": "Assessment",
+          "tier": null,
+          "xref": null
+        },
+        {
+          "number": "6",
+          "outcome": "Choose the proper isolation level for implementing a specified transaction protocol.",
+          "mastery": "Assessment",
+          "tier": null,
+          "xref": null
+        },
+        {
+          "number": "7",
+          "outcome": "Identify appropriate transaction boundaries in application programs.",
+          "mastery": "Assessment",
+          "tier": null,
+          "xref": null
+        }
+      ]
+    },
+    {
+      "ku": "Distributed Databases",
+      "tiers": {
+        "tier": "Elective",
+        "hours": null
+      },
+      "topics": [
+        {
+          "topic": "Distributed DBMS",
+          "tier": null,
+          "subtopics": [
+            "Distributed data storage",
+            "Distributed query processing",
+            "Distributed transaction model",
+            "Homogeneous and heterogeneous solutions",
+            "Client-server distributed databases (cross-reference SF/Computational Paradigms)"
+          ]
+        },
+        {
+          "topic": "Parallel DBMS",
+          "tier": null,
+          "subtopics": [
+            "Parallel DBMS architectures: shared memory, shared disk, shared nothing;",
+            "Speedup and scale-up, e.g., use of the MapReduce processing model (cross-reference CN/Processing, PD/Parallel Decomposition)",
+            "Data replication and weak consistency models"
+          ]
+        }
+      ],
+      "hours": [],
+      "outcomes": [
+        {
+          "number": "1",
+          "outcome": "Explain the techniques used for data fragmentation, replication, and allocation during the distributed database design process.",
+          "mastery": "Familiarity",
+          "tier": null,
+          "xref": null
+        },
+        {
+          "number": "2",
+          "outcome": "Evaluate simple strategies for executing a distributed query to select the strategy that minimizes the amount of data transfer.",
+          "mastery": "Assessment",
+          "tier": null,
+          "xref": null
+        },
+        {
+          "number": "3",
+          "outcome": "Explain how the two-phase commit protocol is used to deal with committing a transaction that accesses databases stored on multiple nodes.",
+          "mastery": "Familiarity",
+          "tier": null,
+          "xref": null
+        },
+        {
+          "number": "4",
+          "outcome": "Describe distributed concurrency control based on the distinguished copy techniques and the voting method.",
+          "mastery": "Familiarity",
+          "tier": null,
+          "xref": null
+        },
+        {
+          "number": "5",
+          "outcome": "Describe the three levels of software in the client-server model.",
+          "mastery": "Familiarity",
+          "tier": null,
+          "xref": null
+        }
+      ]
+    },
+    {
+      "ku": "Physical Database Design",
+      "tiers": {
+        "tier": "Elective",
+        "hours": null
+      },
+      "topics": [
+        {
+          "topic": "Storage and file structure",
+          "tier": null,
+          "subtopics": []
+        },
+        {
+          "topic": "Indexed files",
+          "tier": null,
+          "subtopics": []
+        },
+        {
+          "topic": "Hashed files",
+          "tier": null,
+          "subtopics": []
+        },
+        {
+          "topic": "Signature files",
+          "tier": null,
+          "subtopics": []
+        },
+        {
+          "topic": "B-trees",
+          "tier": null,
+          "subtopics": []
+        },
+        {
+          "topic": "Files with dense index",
+          "tier": null,
+          "subtopics": []
+        },
+        {
+          "topic": "Files with variable length records",
+          "tier": null,
+          "subtopics": []
+        },
+        {
+          "topic": "Database efficiency and tuning",
+          "tier": null,
+          "subtopics": []
+        }
+      ],
+      "hours": [],
+      "outcomes": [
+        {
+          "number": "1",
+          "outcome": "Explain the concepts of records, record types, and files, as well as the different techniques for placing file records on disk.",
+          "mastery": "Familiarity",
+          "tier": null,
+          "xref": null
+        },
+        {
+          "number": "2",
+          "outcome": "Give examples of the application of primary, secondary, and clustering indexes.",
+          "mastery": "Familiarity",
+          "tier": null,
+          "xref": null
+        },
+        {
+          "number": "3",
+          "outcome": "Distinguish between a non-dense index and a dense index.",
+          "mastery": "Assessment",
+          "tier": null,
+          "xref": null
+        },
+        {
+          "number": "4",
+          "outcome": "Implement dynamic multilevel indexes using B-trees.",
+          "mastery": "Usage",
+          "tier": null,
+          "xref": null
+        },
+        {
+          "number": "5",
+          "outcome": "Explain the theory and application of internal and external hashing techniques.",
+          "mastery": "Familiarity",
+          "tier": null,
+          "xref": null
+        },
+        {
+          "number": "6",
+          "outcome": "Use hashing to facilitate dynamic file expansion.",
+          "mastery": "Usage",
+          "tier": null,
+          "xref": null
+        },
+        {
+          "number": "7",
+          "outcome": "Describe the relationships among hashing, compression, and efficient database searches.",
+          "mastery": "Familiarity",
+          "tier": null,
+          "xref": null
+        },
+        {
+          "number": "8",
+          "outcome": "Evaluate costs and benefits of various hashing schemes.",
+          "mastery": "Assessment",
+          "tier": null,
+          "xref": null
+        },
+        {
+          "number": "9",
+          "outcome": "Explain how physical database design affects database transaction efficiency.",
+          "mastery": "Familiarity",
+          "tier": null,
+          "xref": null
+        }
+      ]
+    },
+    {
+      "ku": "Data Mining",
+      "tiers": {
+        "tier": "Elective",
+        "hours": null
+      },
+      "topics": [
+        {
+          "topic": "Uses of data mining",
+          "tier": null,
+          "subtopics": []
+        },
+        {
+          "topic": "Data mining algorithms",
+          "tier": null,
+          "subtopics": []
+        },
+        {
+          "topic": "Associative and sequential patterns",
+          "tier": null,
+          "subtopics": []
+        },
+        {
+          "topic": "Data clustering",
+          "tier": null,
+          "subtopics": []
+        },
+        {
+          "topic": "Market basket analysis",
+          "tier": null,
+          "subtopics": []
+        },
+        {
+          "topic": "Data cleaning",
+          "tier": null,
+          "subtopics": []
+        },
+        {
+          "topic": "Data visualization (cross-reference GV/Visualization and CN/Interactive Visualization)",
+          "tier": null,
+          "subtopics": []
+        }
+      ],
+      "hours": [],
+      "outcomes": [
+        {
+          "number": "1",
+          "outcome": "Compare and contrast different uses of data mining as evidenced in both research and application.",
+          "mastery": "Assessment",
+          "tier": null,
+          "xref": null
+        },
+        {
+          "number": "2",
+          "outcome": "Explain the value of finding associations in market basket data.",
+          "mastery": "Familiarity",
+          "tier": null,
+          "xref": null
+        },
+        {
+          "number": "3",
+          "outcome": "Characterize the kinds of patterns that can be discovered by association rule mining.",
+          "mastery": "Assessment",
+          "tier": null,
+          "xref": null
+        },
+        {
+          "number": "4",
+          "outcome": "Describe how to extend a relational system to find patterns using association rules.",
+          "mastery": "Familiarity",
+          "tier": null,
+          "xref": null
+        },
+        {
+          "number": "5",
+          "outcome": "Evaluate different methodologies for effective application of data mining.",
+          "mastery": "Assessment",
+          "tier": null,
+          "xref": null
+        },
+        {
+          "number": "6",
+          "outcome": "Identify and characterize sources of noise, redundancy, and outliers in presented data.",
+          "mastery": "Assessment",
+          "tier": null,
+          "xref": null
+        },
+        {
+          "number": "7",
+          "outcome": "Identify mechanisms (on-line aggregation, anytime behavior, interactive visualization) to close the loop in the data mining process.",
+          "mastery": "Familiarity",
+          "tier": null,
+          "xref": null
+        },
+        {
+          "number": "8",
+          "outcome": "Describe why the various close-the-loop processes improve the effectiveness of data mining.",
+          "mastery": "Familiarity",
+          "tier": null,
+          "xref": null
+        }
+      ]
+    },
+    {
+      "ku": "Information Storage and Retrieval",
+      "tiers": {
+        "tier": "Elective",
+        "hours": null
+      },
+      "topics": [
+        {
+          "topic": "Documents, electronic publishing, markup, and markup languages",
+          "tier": null,
+          "subtopics": []
+        },
+        {
+          "topic": "Tries, inverted files, PAT trees, signature files, indexing",
+          "tier": null,
+          "subtopics": []
+        },
+        {
+          "topic": "Morphological analysis, stemming, phrases, stop lists",
+          "tier": null,
+          "subtopics": []
+        },
+        {
+          "topic": "Term frequency distributions, uncertainty, fuzziness, weighting",
+          "tier": null,
+          "subtopics": []
+        },
+        {
+          "topic": "Vector space, probabilistic, logical, and advanced models",
+          "tier": null,
+          "subtopics": []
+        },
+        {
+          "topic": "Information needs, relevance, evaluation, effectiveness",
+          "tier": null,
+          "subtopics": []
+        },
+        {
+          "topic": "Thesauri, ontologies, classification and categorization, metadata",
+          "tier": null,
+          "subtopics": []
+        },
+        {
+          "topic": "Bibliographic information, bibliometrics, citations",
+          "tier": null,
+          "subtopics": []
+        },
+        {
+          "topic": "Routing and (community) filtering",
+          "tier": null,
+          "subtopics": []
+        },
+        {
+          "topic": "Multimedia search, information seeking behavior, user modeling, feedback",
+          "tier": null,
+          "subtopics": []
+        },
+        {
+          "topic": "Information summarization and visualization",
+          "tier": null,
+          "subtopics": []
+        },
+        {
+          "topic": "Faceted search (e.g., using citations, keywords, classification schemes)",
+          "tier": null,
+          "subtopics": []
+        },
+        {
+          "topic": "Digital libraries",
+          "tier": null,
+          "subtopics": []
+        },
+        {
+          "topic": "Digitization, storage, interchange, digital objects, composites, and packages",
+          "tier": null,
+          "subtopics": []
+        },
+        {
+          "topic": "Metadata and cataloging",
+          "tier": null,
+          "subtopics": []
+        },
+        {
+          "topic": "Naming, repositories, archives",
+          "tier": null,
+          "subtopics": []
+        },
+        {
+          "topic": "Archiving and preservation, integrity",
+          "tier": null,
+          "subtopics": []
+        },
+        {
+          "topic": "Spaces (conceptual, geographical, 2/3D, VR)",
+          "tier": null,
+          "subtopics": []
+        },
+        {
+          "topic": "Architectures (agents, buses, wrappers/mediators), interoperability",
+          "tier": null,
+          "subtopics": []
+        },
+        {
+          "topic": "Services (searching, linking, browsing, and so forth)",
+          "tier": null,
+          "subtopics": []
+        },
+        {
+          "topic": "Intellectual property rights management, privacy, and protection (watermarking)",
+          "tier": null,
+          "subtopics": []
+        }
+      ],
+      "hours": [],
+      "outcomes": [
+        {
+          "number": "1",
+          "outcome": "Explain basic information storage and retrieval concepts.",
+          "mastery": "Familiarity",
+          "tier": null,
+          "xref": null
+        },
+        {
+          "number": "2",
+          "outcome": "Describe what issues are specific to efficient information retrieval.",
+          "mastery": "Familiarity",
+          "tier": null,
+          "xref": null
+        },
+        {
+          "number": "3",
+          "outcome": "Give applications of alternative search strategies and explain why the particular search strategy is appropriate for the application.",
+          "mastery": "Assessment",
+          "tier": null,
+          "xref": null
+        },
+        {
+          "number": "4",
+          "outcome": "Design and implement a small to medium size information storage and retrieval system, or digital library.",
+          "mastery": "Usage",
+          "tier": null,
+          "xref": null
+        },
+        {
+          "number": "5",
+          "outcome": "Describe some of the technical solutions to the problems related to archiving and preserving information in a digital library.",
+          "mastery": "Familiarity",
+          "tier": null,
+          "xref": null
+        }
+      ]
+    },
+    {
+      "ku": "Multimedia Systems",
+      "tiers": {
+        "tier": "Elective",
+        "hours": null
+      },
+      "topics": [
+        {
+          "topic": "Input and output devices, device drivers, control signals and protocols, DSPs",
+          "tier": null,
+          "subtopics": []
+        },
+        {
+          "topic": "Standards (e.g., audio, graphics, video)",
+          "tier": null,
+          "subtopics": []
+        },
+        {
+          "topic": "Applications, media editors, authoring systems, and authoring",
+          "tier": null,
+          "subtopics": []
+        },
+        {
+          "topic": "Streams/structures, capture/represent/transform, spaces/domains, compression/coding",
+          "tier": null,
+          "subtopics": []
+        },
+        {
+          "topic": "Content-based analysis, indexing, and retrieval of audio, images, animation, and video",
+          "tier": null,
+          "subtopics": []
+        },
+        {
+          "topic": "Presentation, rendering, synchronization, multi-modal integration/interfaces",
+          "tier": null,
+          "subtopics": []
+        },
+        {
+          "topic": "Real-time delivery, quality of service (including performance), capacity planning, audio/video conferencing, video-on-demand",
+          "tier": null,
+          "subtopics": []
+        }
+      ],
+      "hours": [],
+      "outcomes": [
+        {
+          "number": "1",
+          "outcome": "Describe the media and supporting devices commonly associated with multimedia information and systems.",
+          "mastery": "Familiarity",
+          "tier": null,
+          "xref": null
+        },
+        {
+          "number": "2",
+          "outcome": "Demonstrate the use of content-based information analysis in a multimedia information system.",
+          "mastery": "Usage",
+          "tier": null,
+          "xref": null
+        },
+        {
+          "number": "3",
+          "outcome": "Critique multimedia presentations in terms of their appropriate use of audio, video, graphics, color, and other information presentation concepts.",
+          "mastery": "Assessment",
+          "tier": null,
+          "xref": null
+        },
+        {
+          "number": "4",
+          "outcome": "Implement a multimedia application using an authoring system.",
+          "mastery": "Usage",
+          "tier": null,
+          "xref": null
+        },
+        {
+          "number": "5",
+          "outcome": "For each of several media or multimedia standards, describe in non-technical language what the standard calls for, and explain how aspects of human perception might be sensitive to the limitations of that standard.",
+          "mastery": "Familiarity",
+          "tier": null,
+          "xref": null
+        },
+        {
+          "number": "6",
+          "outcome": "Describe the characteristics of a computer system (including identification of support tools and appropriate standards) that has to host the implementation of one of a range of possible multimedia applications.",
+          "mastery": "Familiarity",
+          "tier": null,
+          "xref": null
+        }
+      ]
+    }
+  ],
+  "references": []
+}

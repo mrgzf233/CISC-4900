@@ -1,0 +1,484 @@
+{
+  "ka": "Software Development Fundamentals",
+  "short_ka": "SDF",
+  "units": [
+    {
+      "ku": "Algorithms and Design",
+      "tiers": [
+        {
+          "tier": "Core-Tier1",
+          "hours": "11"
+        }
+      ],
+      "topics": [
+        {
+          "topic": "The concept and properties of algorithms",
+          "tier": null,
+          "subtopics": [
+            "Informal comparison of algorithm efficiency (e.g., operation counts)"
+          ]
+        },
+        {
+          "topic": "The role of algorithms in the problem-solving process",
+          "tier": null,
+          "subtopics": []
+        },
+        {
+          "topic": "Problem-solving strategies",
+          "tier": null,
+          "subtopics": [
+            "Iterative and recursive mathematical functions",
+            "Iterative and recursive traversal of data structures",
+            "Divide-and-conquer strategies"
+          ]
+        },
+        {
+          "topic": "Fundamental design concepts and principles",
+          "tier": null,
+          "subtopics": [
+            "Abstraction",
+            "Program decomposition",
+            "Encapsulation and information hiding",
+            "Separation of behavior and implementation"
+          ]
+        }
+      ],
+      "hours": [],
+      "outcomes": [
+        {
+          "number": "1",
+          "outcome": "Discuss the importance of algorithms in the problem-solving process.",
+          "mastery": "Familiarity",
+          "tier": null,
+          "xref": null
+        },
+        {
+          "number": "2",
+          "outcome": "Discuss how a problem may be solved by multiple algorithms, each with different properties.",
+          "mastery": "Familiarity",
+          "tier": null,
+          "xref": null
+        },
+        {
+          "number": "3",
+          "outcome": "Create algorithms for solving simple problems.",
+          "mastery": "Usage",
+          "tier": null,
+          "xref": null
+        },
+        {
+          "number": "4",
+          "outcome": "Use a programming language to implement, test, and debug algorithms for solving simple problems.",
+          "mastery": "Usage",
+          "tier": null,
+          "xref": null
+        },
+        {
+          "number": "5",
+          "outcome": "Implement, test, and debug simple recursive functions and procedures.",
+          "mastery": "Usage",
+          "tier": null,
+          "xref": null
+        },
+        {
+          "number": "6",
+          "outcome": "Determine whether a recursive or iterative solution is most appropriate for a problem.",
+          "mastery": "Assessment",
+          "tier": null,
+          "xref": null
+        },
+        {
+          "number": "7",
+          "outcome": "Implement a divide-and-conquer algorithm for solving a problem.",
+          "mastery": "Usage",
+          "tier": null,
+          "xref": null
+        },
+        {
+          "number": "8",
+          "outcome": "Apply the techniques of decomposition to break a program into smaller pieces.",
+          "mastery": "Usage",
+          "tier": null,
+          "xref": null
+        },
+        {
+          "number": "9",
+          "outcome": "Identify the data components and behaviors of multiple abstract data types.",
+          "mastery": "Usage",
+          "tier": null,
+          "xref": null
+        },
+        {
+          "number": "10",
+          "outcome": "Implement a coherent abstract data type, with loose coupling between components and behaviors.",
+          "mastery": "Usage",
+          "tier": null,
+          "xref": null
+        },
+        {
+          "number": "11",
+          "outcome": "Identify the relative strengths and weaknesses among multiple designs or implementations for a problem.",
+          "mastery": "Assessment",
+          "tier": null,
+          "xref": null
+        }
+      ]
+    },
+    {
+      "ku": "Fundamental Programming Concepts",
+      "tiers": [
+        {
+          "tier": "Core-Tier1",
+          "hours": "10"
+        }
+      ],
+      "topics": [
+        {
+          "topic": "Basic syntax and semantics of a higher-level language",
+          "tier": null,
+          "subtopics": []
+        },
+        {
+          "topic": "Variables and primitive data types (e.g., numbers, characters, Booleans)",
+          "tier": null,
+          "subtopics": []
+        },
+        {
+          "topic": "Expressions and assignments",
+          "tier": null,
+          "subtopics": []
+        },
+        {
+          "topic": "Simple I/O including file I/O",
+          "tier": null,
+          "subtopics": []
+        },
+        {
+          "topic": "Conditional and iterative control structures",
+          "tier": null,
+          "subtopics": []
+        },
+        {
+          "topic": "Functions and parameter passing",
+          "tier": null,
+          "subtopics": []
+        },
+        {
+          "topic": "The concept of recursion",
+          "tier": null,
+          "subtopics": []
+        }
+      ],
+      "hours": [],
+      "outcomes": [
+        {
+          "number": "1",
+          "outcome": "Analyze and explain the behavior of simple programs involving the fundamental programming constructs variables, expressions, assignments, I/O, control constructs, functions, parameter passing, and recursion.",
+          "mastery": "Assessment",
+          "tier": null,
+          "xref": null
+        },
+        {
+          "number": "2",
+          "outcome": "Identify and describe uses of primitive data types.",
+          "mastery": "Familiarity",
+          "tier": null,
+          "xref": null
+        },
+        {
+          "number": "3",
+          "outcome": "Write programs that use primitive data types.",
+          "mastery": "Usage",
+          "tier": null,
+          "xref": null
+        },
+        {
+          "number": "4",
+          "outcome": "Modify and expand short programs that use standard conditional and iterative control structures and functions.",
+          "mastery": "Usage",
+          "tier": null,
+          "xref": null
+        },
+        {
+          "number": "5",
+          "outcome": "Design, implement, test, and debug a program that uses each of the following fundamental programming constructs: basic computation, simple I/O, standard conditional and iterative structures, the definition of functions, and parameter passing.",
+          "mastery": "Usage",
+          "tier": null,
+          "xref": null
+        },
+        {
+          "number": "6",
+          "outcome": "Write a program that uses file I/O to provide persistence across multiple executions.",
+          "mastery": "Usage",
+          "tier": null,
+          "xref": null
+        },
+        {
+          "number": "7",
+          "outcome": "Choose appropriate conditional and iteration constructs for a given programming task.",
+          "mastery": "Assessment",
+          "tier": null,
+          "xref": null
+        },
+        {
+          "number": "8",
+          "outcome": "Describe the concept of recursion and give examples of its use.",
+          "mastery": "Familiarity",
+          "tier": null,
+          "xref": null
+        },
+        {
+          "number": "9",
+          "outcome": "Identify the base case and the general case of a recursively-defined problem.",
+          "mastery": "Assessment",
+          "tier": null,
+          "xref": null
+        }
+      ]
+    },
+    {
+      "ku": "Fundamental Data Structures",
+      "tiers": [
+        {
+          "tier": "Core-Tier1",
+          "hours": "12"
+        }
+      ],
+      "topics": [
+        {
+          "topic": "Arrays",
+          "tier": null,
+          "subtopics": []
+        },
+        {
+          "topic": "Records/structs (heterogeneous aggregates)",
+          "tier": null,
+          "subtopics": []
+        },
+        {
+          "topic": "Strings and string processing",
+          "tier": null,
+          "subtopics": []
+        },
+        {
+          "topic": "Abstract data types and their implementation",
+          "tier": null,
+          "subtopics": [
+            "Stacks",
+            "Queues",
+            "Priority queues",
+            "Sets",
+            "Maps"
+          ]
+        },
+        {
+          "topic": "References and aliasing",
+          "tier": null,
+          "subtopics": []
+        },
+        {
+          "topic": "Linked lists",
+          "tier": null,
+          "subtopics": []
+        },
+        {
+          "topic": "Strategies for choosing the appropriate data structure",
+          "tier": null,
+          "subtopics": []
+        }
+      ],
+      "hours": [],
+      "outcomes": [
+        {
+          "number": "1",
+          "outcome": "Discuss the appropriate use of built-in data structures.",
+          "mastery": "Familiarity",
+          "tier": null,
+          "xref": null
+        },
+        {
+          "number": "2",
+          "outcome": "Describe common applications for each of the following data structures: stack, queue, priority queue, set, and map.",
+          "mastery": "Familiarity",
+          "tier": null,
+          "xref": null
+        },
+        {
+          "number": "3",
+          "outcome": "Write programs that use each of the following data structures: arrays, records/structs, strings, linked lists, stacks, queues, sets, and maps.",
+          "mastery": "Usage",
+          "tier": null,
+          "xref": null
+        },
+        {
+          "number": "4",
+          "outcome": "Compare alternative implementations of data structures with respect to performance.",
+          "mastery": "Assessment",
+          "tier": null,
+          "xref": null
+        },
+        {
+          "number": "5",
+          "outcome": "Describe how references allow for objects to be accessed in multiple ways.",
+          "mastery": "Familiarity",
+          "tier": null,
+          "xref": null
+        },
+        {
+          "number": "6",
+          "outcome": "Compare and contrast the costs and benefits of dynamic and static data structure implementations.",
+          "mastery": "Assessment",
+          "tier": null,
+          "xref": null
+        },
+        {
+          "number": "7",
+          "outcome": "Choose the appropriate data structure for modeling a given problem.",
+          "mastery": "Assessment",
+          "tier": null,
+          "xref": null
+        }
+      ]
+    },
+    {
+      "ku": "Development Methods",
+      "tiers": [
+        {
+          "tier": "Core-Tier1",
+          "hours": "10"
+        }
+      ],
+      "topics": [
+        {
+          "topic": "Program comprehension",
+          "tier": null,
+          "subtopics": []
+        },
+        {
+          "topic": "Program correctness",
+          "tier": null,
+          "subtopics": [
+            "Types of errors (syntax, logic, run-time)",
+            "The concept of a specification",
+            "Defensive programming (e.g. secure coding, exception handling)",
+            "Code reviews",
+            "Testing fundamentals and test-case generation",
+            "The role and the use of contracts, including pre- and post-conditions",
+            "Unit testing"
+          ]
+        },
+        {
+          "topic": "Simple refactoring",
+          "tier": null,
+          "subtopics": []
+        },
+        {
+          "topic": "Modern programming environments",
+          "tier": null,
+          "subtopics": [
+            "Code search",
+            "Programming using library components and their APIs"
+          ]
+        },
+        {
+          "topic": "Debugging strategies",
+          "tier": null,
+          "subtopics": []
+        },
+        {
+          "topic": "Documentation and program style",
+          "tier": null,
+          "subtopics": []
+        }
+      ],
+      "hours": [],
+      "outcomes": [
+        {
+          "number": "1",
+          "outcome": "Trace the execution of a variety of code segments and write summaries of their computations.",
+          "mastery": "Assessment",
+          "tier": null,
+          "xref": null
+        },
+        {
+          "number": "2",
+          "outcome": "Explain why the creation of correct program components is important in the production of high-quality software.",
+          "mastery": "Familiarity",
+          "tier": null,
+          "xref": null
+        },
+        {
+          "number": "3",
+          "outcome": "Identify common coding errors that lead to insecure programs (e.g., buffer overflows, memory leaks, malicious code) and apply strategies for avoiding such errors.",
+          "mastery": "Usage",
+          "tier": null,
+          "xref": null
+        },
+        {
+          "number": "4",
+          "outcome": "Conduct a personal code review (focused on common coding errors) on a program component using a provided checklist.",
+          "mastery": "Usage",
+          "tier": null,
+          "xref": null
+        },
+        {
+          "number": "5",
+          "outcome": "Contribute to a small-team code review focused on component correctness.",
+          "mastery": "Usage",
+          "tier": null,
+          "xref": null
+        },
+        {
+          "number": "6",
+          "outcome": "Describe how a contract can be used to specify the behavior of a program component.",
+          "mastery": "Familiarity",
+          "tier": null,
+          "xref": null
+        },
+        {
+          "number": "7",
+          "outcome": "Refactor a program by identifying opportunities to apply procedural abstraction.",
+          "mastery": "Usage",
+          "tier": null,
+          "xref": null
+        },
+        {
+          "number": "8",
+          "outcome": "Apply a variety of strategies to the testing and debugging of simple programs.",
+          "mastery": "Usage",
+          "tier": null,
+          "xref": null
+        },
+        {
+          "number": "9",
+          "outcome": "Construct, execute and debug programs using a modern IDE and associated tools such as unit testing tools and visual debuggers.",
+          "mastery": "Usage",
+          "tier": null,
+          "xref": null
+        },
+        {
+          "number": "10",
+          "outcome": "Construct and debug programs using the standard libraries available with a chosen programming language.",
+          "mastery": "Usage",
+          "tier": null,
+          "xref": null
+        },
+        {
+          "number": "11",
+          "outcome": "Analyze the extent to which another programmer\u2019s code meets documentation and programming style standards.",
+          "mastery": "Assessment",
+          "tier": null,
+          "xref": null
+        },
+        {
+          "number": "12",
+          "outcome": "Apply consistent documentation and program style standards that contribute to the readability and maintainability of software.",
+          "mastery": "Usage",
+          "tier": null,
+          "xref": null
+        }
+      ]
+    }
+  ],
+  "references": []
+}

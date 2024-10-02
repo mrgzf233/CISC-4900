@@ -1,0 +1,1408 @@
+{
+  "ka": "Information Assurance and Security",
+  "short_ka": "IAS",
+  "units": [
+    {
+      "ku": "Foundational Concepts in Security",
+      "tiers": [
+        {
+          "tier": "Core-Tier1",
+          "hours": "1"
+        }
+      ],
+      "topics": [
+        {
+          "topic": "CIA (Confidentiality, Integrity, Availability)",
+          "tier": null,
+          "subtopics": []
+        },
+        {
+          "topic": "Concepts of risk, threats, vulnerabilities, and attack vectors (cros- reference SE/Software Project Management/Risk)",
+          "tier": null,
+          "subtopics": []
+        },
+        {
+          "topic": "Authentication and authorization, access control (mandatory vs. discretionary)",
+          "tier": null,
+          "subtopics": []
+        },
+        {
+          "topic": "Concept of trust and trustworthiness",
+          "tier": null,
+          "subtopics": []
+        },
+        {
+          "topic": "Ethics (responsible disclosure). (cross-reference SP/Professional Ethics/Accountability, responsibility and liability)",
+          "tier": null,
+          "subtopics": []
+        }
+      ],
+      "hours": [],
+      "outcomes": [
+        {
+          "number": "1",
+          "outcome": "Analyze the tradeoffs of balancing key security properties (Confidentiality, Integrity, and Availability).",
+          "mastery": "Usage",
+          "tier": null,
+          "xref": null
+        },
+        {
+          "number": "2",
+          "outcome": "Describe the concepts of risk, threats, vulnerabilities and attack vectors (including the fact that there is no such thing as perfect security).",
+          "mastery": "Familiarity",
+          "tier": null,
+          "xref": null
+        },
+        {
+          "number": "3",
+          "outcome": "Explain the concepts of authentication, authorization, access control.",
+          "mastery": "Familiarity",
+          "tier": null,
+          "xref": null
+        },
+        {
+          "number": "4",
+          "outcome": "Explain the concept of trust and trustworthiness.",
+          "mastery": "Familiarity",
+          "tier": null,
+          "xref": null
+        },
+        {
+          "number": "5",
+          "outcome": "Describe important ethical issues to consider in computer security, including ethical issues associated with fixing or not fixing vulnerabilities and disclosing or not disclosing vulnerabilities.",
+          "mastery": "Familiarity",
+          "tier": null,
+          "xref": null
+        }
+      ]
+    },
+    {
+      "ku": "Principles of Secure Design",
+      "tiers": [
+        {
+          "tier": "Core-Tier1",
+          "hours": "1"
+        },
+        {
+          "tier": "Core-Tier2",
+          "hours": "1"
+        }
+      ],
+      "topics": [
+        {
+          "topic": "Least privilege and isolation (cross-reference OS/Security and Protection/Policy/mechanism separation and SF/Virtualization and Isolation/Rationale for protection and predictable performance and PL/Language Translation and Execution/Memory management)",
+          "tier": "Core-Tier1",
+          "subtopics": []
+        },
+        {
+          "topic": "Fail-safe defaults (cross-reference SE/Software Construction/ Coding practices: techniques, idioms/patterns, mechanisms for building quality programs and SDF/Development Methods/Programming correctness)",
+          "tier": "Core-Tier1",
+          "subtopics": []
+        },
+        {
+          "topic": "Open design (cross-reference SE/Software Evolution/ Software development in the context of large, pre- existing code bases)",
+          "tier": "Core-Tier1",
+          "subtopics": []
+        },
+        {
+          "topic": "End-to-end security (cross-reference SF/Reliability through Redundancy/ How errors increase the longer the distance between the communicating entities; the end-to-end principle)",
+          "tier": "Core-Tier1",
+          "subtopics": []
+        },
+        {
+          "topic": "Defense in depth (e.g., defensive programming, layered defense)",
+          "tier": "Core-Tier1",
+          "subtopics": []
+        },
+        {
+          "topic": "Security by design (cross-reference SE/Software Design/System design principles)",
+          "tier": "Core-Tier1",
+          "subtopics": []
+        },
+        {
+          "topic": "Tensions between security and other design goals",
+          "tier": "Core-Tier1",
+          "subtopics": []
+        },
+        {
+          "topic": "Complete mediation",
+          "tier": "Core-Tier2",
+          "subtopics": []
+        },
+        {
+          "topic": "Use of vetted security components",
+          "tier": "Core-Tier2",
+          "subtopics": []
+        },
+        {
+          "topic": "Economy of mechanism (reducing trusted computing base, minimize attack surface) (cross-reference SE/Software Design/System design principles and SE/Software Construction/Development context: \u201cgreen field\u201d vs. existing code base)",
+          "tier": "Core-Tier2",
+          "subtopics": []
+        },
+        {
+          "topic": "Usable security (cross-reference HCI/Foundations/Cognitive models that inform interaction design)",
+          "tier": "Core-Tier2",
+          "subtopics": []
+        },
+        {
+          "topic": "Security composability",
+          "tier": "Core-Tier2",
+          "subtopics": []
+        },
+        {
+          "topic": "Prevention, detection, and deterrence (cross-reference SF/Reliability through Redundancy/Distinction between bugs and faults and NC/Reliable Data Delivery/Error control and NC/Reliable Data Delivery/Flow control)",
+          "tier": "Core-Tier2",
+          "subtopics": []
+        }
+      ],
+      "hours": [],
+      "outcomes": [
+        {
+          "number": "1",
+          "outcome": "Describe the principle of least privilege and isolation as applied to system design.",
+          "mastery": "Familiarity",
+          "tier": "Core-Tier1",
+          "xref": null
+        },
+        {
+          "number": "2",
+          "outcome": "Summarize the principle of fail-safe and deny-by-default.",
+          "mastery": "Familiarity",
+          "tier": "Core-Tier1",
+          "xref": null
+        },
+        {
+          "number": "3",
+          "outcome": "Discuss the implications of relying on open design or the secrecy of design for security.",
+          "mastery": "Familiarity",
+          "tier": "Core-Tier1",
+          "xref": null
+        },
+        {
+          "number": "4",
+          "outcome": "Explain the goals of end-to-end data security.",
+          "mastery": "Familiarity",
+          "tier": "Core-Tier1",
+          "xref": null
+        },
+        {
+          "number": "5",
+          "outcome": "Discuss the benefits of having multiple layers of defenses.",
+          "mastery": "Familiarity",
+          "tier": "Core-Tier1",
+          "xref": null
+        },
+        {
+          "number": "6",
+          "outcome": "For each stage in the lifecycle of a product, describe what security considerations should be evaluated.",
+          "mastery": "Familiarity",
+          "tier": "Core-Tier1",
+          "xref": null
+        },
+        {
+          "number": "7",
+          "outcome": "Describe the cost and tradeoffs associated with designing security into a product.",
+          "mastery": "Familiarity",
+          "tier": "Core-Tier1",
+          "xref": null
+        },
+        {
+          "number": "8",
+          "outcome": "Describe the concept of mediation and the principle of complete mediation.",
+          "mastery": "Familiarity",
+          "tier": "Core-Tier2",
+          "xref": null
+        },
+        {
+          "number": "9",
+          "outcome": "Describe standard components for security operations, and explain the benefits of their use instead of re- inventing fundamentals operations.",
+          "mastery": "Familiarity",
+          "tier": "Core-Tier2",
+          "xref": null
+        },
+        {
+          "number": "10",
+          "outcome": "Explain the concept of trusted computing including trusted computing base and attack surface and the principle of minimizing trusted computing base.",
+          "mastery": "Familiarity",
+          "tier": "Core-Tier2",
+          "xref": null
+        },
+        {
+          "number": "11",
+          "outcome": "Discuss the importance of usability in security mechanism design.",
+          "mastery": "Familiarity",
+          "tier": "Core-Tier2",
+          "xref": null
+        },
+        {
+          "number": "12",
+          "outcome": "Describe security issues that arise at boundaries between multiple components.",
+          "mastery": "Familiarity",
+          "tier": "Core-Tier2",
+          "xref": null
+        },
+        {
+          "number": "13",
+          "outcome": "Identify the different roles of prevention mechanisms and detection/deterrence mechanisms.",
+          "mastery": "Familiarity",
+          "tier": "Core-Tier2",
+          "xref": null
+        }
+      ]
+    },
+    {
+      "ku": "Defensive Programming",
+      "tiers": [
+        {
+          "tier": "Core-Tier1",
+          "hours": "1"
+        },
+        {
+          "tier": "Core-Tier2",
+          "hours": "1"
+        }
+      ],
+      "topics": [
+        {
+          "topic": "Input validation and data sanitization (cross-reference SDF/Development Methods/Program Correctness)",
+          "tier": "Core-Tier1",
+          "subtopics": []
+        },
+        {
+          "topic": "Choice of programming language and type-safe languages",
+          "tier": "Core-Tier1",
+          "subtopics": []
+        },
+        {
+          "topic": "Examples of input validation and data sanitization errors (cross-reference SDF/Development Methods/Program Correctness and SE/Software Construction/Coding Practices)",
+          "tier": "Core-Tier1",
+          "subtopics": [
+            "Buffer overflows",
+            "Integer errors",
+            "SQL injection",
+            "XSS vulnerability"
+          ]
+        },
+        {
+          "topic": "Race conditions (cross-reference SF/Parallelism/Parallel programming and PD/Parallel Architecture/Shared vs. distributed memory and PD/Communication and Coordination/Shared Memory and PD/Parallelism Fundamentals/Programming errors not found in sequential programming)",
+          "tier": "Core-Tier1",
+          "subtopics": []
+        },
+        {
+          "topic": "Correct handling of exceptions and unexpected behaviors (cross-reference SDF/Development Methods/program correctness)",
+          "tier": "Core-Tier1",
+          "subtopics": []
+        },
+        {
+          "topic": "Correct usage of third-party components (cross-reference SDF/Development Methods/program correctness and Operating System Principles/Concepts of application program interfaces (APIs)",
+          "tier": "Core-Tier2",
+          "subtopics": []
+        },
+        {
+          "topic": "Effectively deploying security updates (cross-reference OS/Security and Protection/Security methods and devices)",
+          "tier": "Core-Tier2",
+          "subtopics": []
+        },
+        {
+          "topic": "Information flow control",
+          "tier": "Electives",
+          "subtopics": []
+        },
+        {
+          "topic": "Correctly generating randomness for security purposes",
+          "tier": "Electives",
+          "subtopics": []
+        },
+        {
+          "topic": "Mechanisms for detecting and mitigating input and data sanitization errors",
+          "tier": "Electives",
+          "subtopics": []
+        },
+        {
+          "topic": "Fuzzing",
+          "tier": "Electives",
+          "subtopics": []
+        },
+        {
+          "topic": "Static analysis and dynamic analysis",
+          "tier": "Electives",
+          "subtopics": []
+        },
+        {
+          "topic": "Program verification",
+          "tier": "Electives",
+          "subtopics": []
+        },
+        {
+          "topic": "Operating system support (e.g., address space randomization, canaries)",
+          "tier": "Electives",
+          "subtopics": []
+        },
+        {
+          "topic": "Hardware support (e.g., DEP, TPM)",
+          "tier": "Electives",
+          "subtopics": []
+        }
+      ],
+      "hours": [],
+      "outcomes": [
+        {
+          "number": "1",
+          "outcome": "Explain why input validation and data sanitization is necessary in the face of adversarial control of the input channel.",
+          "mastery": "Familiarity",
+          "tier": "Core-Tier1",
+          "xref": null
+        },
+        {
+          "number": "2",
+          "outcome": "Explain why you might choose to develop a program in a type-safe language like Java, in contrast to an unsafe programming language like C/C++.",
+          "mastery": "Familiarity",
+          "tier": "Core-Tier1",
+          "xref": null
+        },
+        {
+          "number": "3",
+          "outcome": "Classify common input validation errors, and write correct input validation code.",
+          "mastery": "Usage",
+          "tier": "Core-Tier1",
+          "xref": null
+        },
+        {
+          "number": "4",
+          "outcome": "Demonstrate using a high-level programming language how to prevent a race condition from occurring and how to handle an exception.",
+          "mastery": "Usage",
+          "tier": "Core-Tier1",
+          "xref": null
+        },
+        {
+          "number": "5",
+          "outcome": "Demonstrate the identification and graceful handling of error conditions.",
+          "mastery": "Usage",
+          "tier": "Core-Tier1",
+          "xref": null
+        },
+        {
+          "number": "6",
+          "outcome": "Explain the risks with misusing interfaces with third-party code and how to correctly use third-party code.",
+          "mastery": "Familiarity",
+          "tier": "Core-Tier2",
+          "xref": null
+        },
+        {
+          "number": "7",
+          "outcome": "Discuss the need to update software to fix security vulnerabilities and the lifecycle management of the fix.",
+          "mastery": "Familiarity",
+          "tier": "Core-Tier2",
+          "xref": null
+        },
+        {
+          "number": "8",
+          "outcome": "List examples of direct and indirect information flows.",
+          "mastery": "Familiarity",
+          "tier": "Elective",
+          "xref": null
+        },
+        {
+          "number": "9",
+          "outcome": "Explain the role of random numbers in security, beyond just cryptography (e.g. password generation, randomized algorithms to avoid algorithmic denial of service attacks).",
+          "mastery": "Familiarity",
+          "tier": "Elective",
+          "xref": null
+        },
+        {
+          "number": "10",
+          "outcome": "Explain the different types of mechanisms for detecting and mitigating data sanitization errors.",
+          "mastery": "Familiarity",
+          "tier": "Elective",
+          "xref": null
+        },
+        {
+          "number": "11",
+          "outcome": "Demonstrate how programs are tested for input handling errors.",
+          "mastery": "Usage",
+          "tier": "Elective",
+          "xref": null
+        },
+        {
+          "number": "12",
+          "outcome": "Use static and dynamic tools to identify programming faults.",
+          "mastery": "Usage",
+          "tier": "Elective",
+          "xref": null
+        },
+        {
+          "number": "13",
+          "outcome": "Describe how memory architecture is used to protect runtime attacks.",
+          "mastery": "Familiarity",
+          "tier": "Elective",
+          "xref": null
+        }
+      ]
+    },
+    {
+      "ku": "Threats and Attacks",
+      "tiers": [
+        {
+          "tier": "Core-Tier2",
+          "hours": "1"
+        }
+      ],
+      "topics": [
+        {
+          "topic": "Attacker goals, capabilities, and motivations (such as underground economy, digital espionage, cyberwarfare, insider threats, hacktivism, advanced persistent threats)",
+          "tier": "Core-Tier2",
+          "subtopics": []
+        },
+        {
+          "topic": "Examples of malware (e.g., viruses, worms, spyware, botnets, Trojan horses or rootkits)",
+          "tier": "Core-Tier2",
+          "subtopics": []
+        },
+        {
+          "topic": "Denial of Service (DoS) and Distributed Denial of Service (DDoS)",
+          "tier": "Core-Tier2",
+          "subtopics": []
+        },
+        {
+          "topic": "Social engineering (e.g., phishing) (cross-reference SP/Social Context/Social implications of computing in a networked world and HCI/Designing Interaction/Handling human/system failure)",
+          "tier": "Core-Tier2",
+          "subtopics": []
+        },
+        {
+          "topic": "Attacks on privacy and anonymity (cross-reference HCI/Foundations/Social models that inform interaction design: culture, communication, networks and organizations (cross-reference SP/Privacy and Civil Liberties/technology-based solutions for privacy protection)",
+          "tier": "Elective",
+          "subtopics": []
+        },
+        {
+          "topic": "Malware/unwanted communication such as covert channels and steganography",
+          "tier": "Elective",
+          "subtopics": []
+        }
+      ],
+      "hours": [],
+      "outcomes": [
+        {
+          "number": "1",
+          "outcome": "Describe likely attacker types against a particular system.",
+          "mastery": "Familiarity",
+          "tier": "Core-Tier2",
+          "xref": null
+        },
+        {
+          "number": "2",
+          "outcome": "Discuss the limitations of malware countermeasures (e.g., signature-based detection, behavioral detection).",
+          "mastery": "Familiarity",
+          "tier": "Core-Tier2",
+          "xref": null
+        },
+        {
+          "number": "3",
+          "outcome": "Identify instances of social engineering attacks and Denial of Service attacks.",
+          "mastery": "Familiarity",
+          "tier": "Core-Tier2",
+          "xref": null
+        },
+        {
+          "number": "4",
+          "outcome": "Discuss how Denial of Service attacks can be identified and mitigated.",
+          "mastery": "Familiarity",
+          "tier": "Core-Tier2",
+          "xref": null
+        },
+        {
+          "number": "5",
+          "outcome": "Describe risks to privacy and anonymity in commonly used applications.",
+          "mastery": "Familiarity",
+          "tier": "Elective",
+          "xref": null
+        },
+        {
+          "number": "6",
+          "outcome": "Discuss the concepts of covert channels and other data leakage procedures.",
+          "mastery": "Familiarity",
+          "tier": "Elective",
+          "xref": null
+        }
+      ]
+    },
+    {
+      "ku": "Network Security",
+      "tiers": [
+        {
+          "tier": "Core-Tier2",
+          "hours": "2"
+        }
+      ],
+      "topics": [
+        {
+          "topic": "Network specific threats and attack types (e.g., denial of service, spoofing, sniffing and traffic redirection, man-in-the-middle, message integrity attacks, routing attacks, and traffic analysis)",
+          "tier": "Core-Tier2",
+          "subtopics": []
+        },
+        {
+          "topic": "Use of cryptography for data and network security",
+          "tier": "Core-Tier2",
+          "subtopics": []
+        },
+        {
+          "topic": "Architectures for secure networks (e.g., secure channels, secure routing protocols, secure DNS, VPNs, anonymous communication protocols, isolation)",
+          "tier": "Core-Tier2",
+          "subtopics": []
+        },
+        {
+          "topic": "Defense mechanisms and countermeasures (e.g., network monitoring, intrusion detection, firewalls, spoofing and DoS protection, honeypots, tracebacks)",
+          "tier": "Core-Tier2",
+          "subtopics": []
+        },
+        {
+          "topic": "Security for wireless, cellular networks (cross-reference NC/Mobility/Principles of cellular networks; cross-reference NC/Mobility/802.11)",
+          "tier": "Elective",
+          "subtopics": []
+        },
+        {
+          "topic": "Other non-wired networks (e.g., ad hoc, sensor, and vehicular networks)",
+          "tier": "Elective",
+          "subtopics": []
+        },
+        {
+          "topic": "Censorship resistance",
+          "tier": "Elective",
+          "subtopics": []
+        },
+        {
+          "topic": "Operational network security management (e.g., configure network access control)",
+          "tier": "Elective",
+          "subtopics": []
+        }
+      ],
+      "hours": [],
+      "outcomes": [
+        {
+          "number": "1",
+          "outcome": "Describe the different categories of network threats and attacks.",
+          "mastery": "Familiarity",
+          "tier": "Core-Tier2",
+          "xref": null
+        },
+        {
+          "number": "2",
+          "outcome": "Describe the architecture for public and private key cryptography and how public key infrastructure (PKI) supports network security.",
+          "mastery": "Familiarity",
+          "tier": "Core-Tier2",
+          "xref": null
+        },
+        {
+          "number": "3",
+          "outcome": "Describe virtues and limitations of security technologies at each layer of the network stack.",
+          "mastery": "Familiarity",
+          "tier": "Core-Tier2",
+          "xref": null
+        },
+        {
+          "number": "4",
+          "outcome": "Identify the appropriate defense mechanism(s) and its limitations given a network threat.",
+          "mastery": "Familiarity",
+          "tier": "Core-Tier2",
+          "xref": null
+        },
+        {
+          "number": "5",
+          "outcome": "Discuss security properties and limitations of other non-wired networks.",
+          "mastery": "Familiarity",
+          "tier": "Elective",
+          "xref": null
+        },
+        {
+          "number": "6",
+          "outcome": "Identify the additional threats faced by non-wired networks.",
+          "mastery": "Familiarity",
+          "tier": "Elective",
+          "xref": null
+        },
+        {
+          "number": "7",
+          "outcome": "Describe threats that can and cannot be protected against using secure communication channels.",
+          "mastery": "Familiarity",
+          "tier": "Elective",
+          "xref": null
+        },
+        {
+          "number": "8",
+          "outcome": "Summarize defenses against network censorship.",
+          "mastery": "Familiarity",
+          "tier": "Elective",
+          "xref": null
+        },
+        {
+          "number": "9",
+          "outcome": "Diagram a network for security.",
+          "mastery": "Familiarity",
+          "tier": "Elective",
+          "xref": null
+        }
+      ]
+    },
+    {
+      "ku": "Cryptography",
+      "tiers": [
+        {
+          "tier": "Core-Tier2",
+          "hours": "1"
+        }
+      ],
+      "topics": [
+        {
+          "topic": "Basic Cryptography Terminology covering notions pertaining to the different (communication) partners, secure/unsecure channel, attackers and their capabilities, encryption, decryption, keys and their characteristics, signatures",
+          "tier": "Core-Tier2",
+          "subtopics": []
+        },
+        {
+          "topic": "Cipher types (e.g., Caesar cipher, affine cipher) together with typical attack methods such as frequency analysis",
+          "tier": "Core-Tier2",
+          "subtopics": []
+        },
+        {
+          "topic": "Public Key Infrastructure support for digital signature and encryption and its challenges",
+          "tier": "Core-Tier2",
+          "subtopics": []
+        },
+        {
+          "topic": "Mathematical Preliminaries essential for cryptography, including topics in linear algebra, number theory, probability theory, and statistics",
+          "tier": "Elective",
+          "subtopics": []
+        },
+        {
+          "topic": "Cryptographic primitives:",
+          "tier": "Elective",
+          "subtopics": [
+            "pseudo-random generators and stream ciphers",
+            "block ciphers (pseudo-random permutations), e.g., AES",
+            "pseudo-random functions",
+            "hash functions, e.g., SHA2, collision resistance",
+            "message authentication codes",
+            "key derivations functions"
+          ]
+        },
+        {
+          "topic": "Symmetric key cryptography",
+          "tier": "Elective",
+          "subtopics": [
+            "Perfect secrecy and the one time pad",
+            "Modes of operation for semantic security and authenticated encryption (e.g., encrypt-then-MAC, OCB, GCM)",
+            "Message integrity (e.g., CMAC, HMAC)"
+          ]
+        },
+        {
+          "topic": "Public key cryptography:",
+          "tier": "Elective",
+          "subtopics": [
+            "Trapdoor permutation, e.g., RSA",
+            "Public key encryption, e.g., RSA encryption, EI Gamal encryption",
+            "Digital signatures",
+            "Public-key infrastructure (PKI) and certificates",
+            "Hardness assumptions, e.g., Diffie-Hellman, integer factoring"
+          ]
+        },
+        {
+          "topic": "Authenticated key exchange protocols, e.g., TLS",
+          "tier": "Elective",
+          "subtopics": []
+        },
+        {
+          "topic": "Cryptographic protocols: challenge-response authentication, zero-knowledge protocols, commitment,",
+          "tier": "Elective",
+          "subtopics": [
+            "blivious transfer, secure 2-party or multi-party computation, secret sharing, and applications"
+          ]
+        },
+        {
+          "topic": "Motivate concepts using real-world applications, e.g., electronic cash, secure channels between clients and servers, secure electronic mail, entity authentication, device pairing, voting systems.",
+          "tier": "Elective",
+          "subtopics": []
+        },
+        {
+          "topic": "Security definitions and attacks on cryptographic primitives:",
+          "tier": "Elective",
+          "subtopics": [
+            "Goals: indistinguishability, unforgeability, collision-resistance",
+            "Attacker capabilities: chosen-message attack (for signatures), birthday attacks, side channel attacks, fault injection attacks."
+          ]
+        },
+        {
+          "topic": "Cryptographic standards and references implementations",
+          "tier": "Elective",
+          "subtopics": []
+        },
+        {
+          "topic": "Quantum cryptography",
+          "tier": "Elective",
+          "subtopics": []
+        }
+      ],
+      "hours": [],
+      "outcomes": [
+        {
+          "number": "1",
+          "outcome": "Describe the purpose of cryptography and list ways it is used in data communications.",
+          "mastery": "Familiarity",
+          "tier": "Core-Tier2",
+          "xref": null
+        },
+        {
+          "number": "2",
+          "outcome": "Define the following terms: cipher, cryptanalysis, cryptographic algorithm, and cryptology, and describe the two basic methods (ciphers) for transforming plain text in cipher text.",
+          "mastery": "Familiarity",
+          "tier": "Core-Tier2",
+          "xref": null
+        },
+        {
+          "number": "3",
+          "outcome": "Discuss the importance of prime numbers in cryptography and explain their use in cryptographic algorithms.",
+          "mastery": "Familiarity",
+          "tier": "Core-Tier2",
+          "xref": null
+        },
+        {
+          "number": "4",
+          "outcome": "Explain how public key infrastructure supports digital signing and encryption and discuss the limitations/vulnerabilities.",
+          "mastery": "Familiarity",
+          "tier": "Core-Tier2",
+          "xref": null
+        },
+        {
+          "number": "5",
+          "outcome": "Use cryptographic primitives and describe their basic properties.",
+          "mastery": "Usage",
+          "tier": "Elective",
+          "xref": null
+        },
+        {
+          "number": "6",
+          "outcome": "Illustrate how to measure entropy and how to generate cryptographic randomness.",
+          "mastery": "Usage",
+          "tier": "Elective",
+          "xref": null
+        },
+        {
+          "number": "7",
+          "outcome": "Use public-key primitives and their applications.",
+          "mastery": "Usage",
+          "tier": "Elective",
+          "xref": null
+        },
+        {
+          "number": "8",
+          "outcome": "Explain how key exchange protocols work and how they fail.",
+          "mastery": "Familiarity",
+          "tier": "Elective",
+          "xref": null
+        },
+        {
+          "number": "9",
+          "outcome": "Discuss cryptographic protocols and their properties.",
+          "mastery": "Familiarity",
+          "tier": "Elective",
+          "xref": null
+        },
+        {
+          "number": "10",
+          "outcome": "Describe real-world applications of cryptographic primitives and protocols.",
+          "mastery": "Familiarity",
+          "tier": "Elective",
+          "xref": null
+        },
+        {
+          "number": "11",
+          "outcome": "Summarize security definitions related to attacks on cryptographic primitives, including attacker capabilities and goals.",
+          "mastery": "Familiarity",
+          "tier": "Elective",
+          "xref": null
+        },
+        {
+          "number": "12",
+          "outcome": "Apply appropriate known cryptographic techniques for a given scenario.",
+          "mastery": "Usage",
+          "tier": "Elective",
+          "xref": null
+        },
+        {
+          "number": "13",
+          "outcome": "Appreciate the dangers of inventing one\u2019s own cryptographic methods.",
+          "mastery": "Familiarity",
+          "tier": "Elective",
+          "xref": null
+        },
+        {
+          "number": "14",
+          "outcome": "Describe quantum cryptography and the impact of quantum computing on cryptographic algorithms.",
+          "mastery": "Familiarity",
+          "tier": "Elective",
+          "xref": null
+        }
+      ]
+    },
+    {
+      "ku": "Web Security",
+      "tiers": {
+        "tier": "Elective",
+        "hours": null
+      },
+      "topics": [
+        {
+          "topic": "Web security model",
+          "tier": null,
+          "subtopics": [
+            "Browser security model including same-origin policy",
+            "Client-server trust boundaries, e.g., cannot rely on secure execution in the client"
+          ]
+        },
+        {
+          "topic": "Session management, authentication",
+          "tier": null,
+          "subtopics": [
+            "Single sign-on",
+            "HTTPS and certificates"
+          ]
+        },
+        {
+          "topic": "Application vulnerabilities and defenses",
+          "tier": null,
+          "subtopics": [
+            "SQL injection",
+            "XSS",
+            "CSRF"
+          ]
+        },
+        {
+          "topic": "Client-side security",
+          "tier": null,
+          "subtopics": [
+            "Cookies security policy",
+            "HTTP security extensions, e.g. HSTS",
+            "Plugins, extensions, and web apps",
+            "Web user tracking"
+          ]
+        },
+        {
+          "topic": "Server-side security tools, e.g. Web Application Firewalls (WAFs) and fuzzers",
+          "tier": null,
+          "subtopics": []
+        }
+      ],
+      "hours": [],
+      "outcomes": [
+        {
+          "number": "1",
+          "outcome": "Describe the browser security model including same-origin policy and threat models in web security.",
+          "mastery": "Familiarity",
+          "tier": null,
+          "xref": null
+        },
+        {
+          "number": "2",
+          "outcome": "Discuss the concept of web sessions, secure communication channels such as TLS and importance of secure certificates, authentication including single sign-on such as OAuth and SAML.",
+          "mastery": "Familiarity",
+          "tier": null,
+          "xref": null
+        },
+        {
+          "number": "3",
+          "outcome": "Describe common types of vulnerabilities and attacks in web applications, and defenses against them.",
+          "mastery": "Familiarity",
+          "tier": null,
+          "xref": null
+        },
+        {
+          "number": "4",
+          "outcome": "Use client-side security capabilities in an application.",
+          "mastery": "Usage",
+          "tier": null,
+          "xref": null
+        }
+      ]
+    },
+    {
+      "ku": "Platform Security",
+      "tiers": {
+        "tier": "Elective",
+        "hours": null
+      },
+      "topics": [
+        {
+          "topic": "Code integrity and code signing",
+          "tier": null,
+          "subtopics": []
+        },
+        {
+          "topic": "Secure boot, measured boot, and root of trust",
+          "tier": null,
+          "subtopics": []
+        },
+        {
+          "topic": "Attestation",
+          "tier": null,
+          "subtopics": []
+        },
+        {
+          "topic": "TPM and secure co-processors",
+          "tier": null,
+          "subtopics": []
+        },
+        {
+          "topic": "Security threats from peripherals, e.g., DMA, IOMMU",
+          "tier": null,
+          "subtopics": []
+        },
+        {
+          "topic": "Physical attacks: hardware Trojans, memory probes, cold boot attacks",
+          "tier": null,
+          "subtopics": []
+        },
+        {
+          "topic": "Security of embedded devices, e.g., medical devices, cars",
+          "tier": null,
+          "subtopics": []
+        },
+        {
+          "topic": "Trusted path",
+          "tier": null,
+          "subtopics": []
+        }
+      ],
+      "hours": [],
+      "outcomes": [
+        {
+          "number": "1",
+          "outcome": "Explain the concept of code integrity and code signing and the scope it applies to.",
+          "mastery": "Familiarity",
+          "tier": null,
+          "xref": null
+        },
+        {
+          "number": "2",
+          "outcome": "Discuss the concept of root of trust and the process of secure boot and secure loading.",
+          "mastery": "Familiarity",
+          "tier": null,
+          "xref": null
+        },
+        {
+          "number": "3",
+          "outcome": "Describe the mechanism of remote attestation of system integrity.",
+          "mastery": "Familiarity",
+          "tier": null,
+          "xref": null
+        },
+        {
+          "number": "4",
+          "outcome": "Summarize the goals and key primitives of TPM.",
+          "mastery": "Familiarity",
+          "tier": null,
+          "xref": null
+        },
+        {
+          "number": "5",
+          "outcome": "Identify the threats of plugging peripherals into a device.",
+          "mastery": "Familiarity",
+          "tier": null,
+          "xref": null
+        },
+        {
+          "number": "6",
+          "outcome": "Identify physical attacks and countermeasures.",
+          "mastery": "Familiarity",
+          "tier": null,
+          "xref": null
+        },
+        {
+          "number": "7",
+          "outcome": "Identify attacks on non-PC hardware platforms.",
+          "mastery": "Familiarity",
+          "tier": null,
+          "xref": null
+        },
+        {
+          "number": "8",
+          "outcome": "Discuss the concept and importance of trusted path.",
+          "mastery": "Familiarity",
+          "tier": null,
+          "xref": null
+        }
+      ]
+    },
+    {
+      "ku": "Security Policy and Governance",
+      "tiers": {
+        "tier": "Elective",
+        "hours": null
+      },
+      "topics": [
+        {
+          "topic": "Privacy policy (cross-reference SP/Social Context/Social implications of computing in a networked world; cross-reference SP/Professional Ethics/Accountability, responsibility and liability; cross-reference SP/Privacy and Civil Liberties/Legal foundations of privacy protection)",
+          "tier": null,
+          "subtopics": []
+        },
+        {
+          "topic": "Inference controls/statistical disclosure limitation",
+          "tier": null,
+          "subtopics": []
+        },
+        {
+          "topic": "Backup policy, password refresh policy",
+          "tier": null,
+          "subtopics": []
+        },
+        {
+          "topic": "Breach disclosure policy",
+          "tier": null,
+          "subtopics": []
+        },
+        {
+          "topic": "Data collection and retention policies",
+          "tier": null,
+          "subtopics": []
+        },
+        {
+          "topic": "Supply chain policy",
+          "tier": null,
+          "subtopics": []
+        },
+        {
+          "topic": "Cloud security tradeoffs",
+          "tier": null,
+          "subtopics": []
+        }
+      ],
+      "hours": [],
+      "outcomes": [
+        {
+          "number": "1",
+          "outcome": "Describe the concept of privacy including personally private information, potential violations of privacy due to security mechanisms, and describe how privacy protection mechanisms run in conflict with security mechanisms.",
+          "mastery": "Familiarity",
+          "tier": null,
+          "xref": null
+        },
+        {
+          "number": "2",
+          "outcome": "Describe how an attacker can infer a secret by interacting with a database.",
+          "mastery": "Familiarity",
+          "tier": null,
+          "xref": null
+        },
+        {
+          "number": "3",
+          "outcome": "Explain how to set a data backup policy or password refresh policy.",
+          "mastery": "Familiarity",
+          "tier": null,
+          "xref": null
+        },
+        {
+          "number": "4",
+          "outcome": "Discuss how to set a breach disclosure policy.",
+          "mastery": "Familiarity",
+          "tier": null,
+          "xref": null
+        },
+        {
+          "number": "5",
+          "outcome": "Describe the consequences of data retention policies.",
+          "mastery": "Familiarity",
+          "tier": null,
+          "xref": null
+        },
+        {
+          "number": "6",
+          "outcome": "Identify the risks of relying on outsourced manufacturing.",
+          "mastery": "Familiarity",
+          "tier": null,
+          "xref": null
+        },
+        {
+          "number": "7",
+          "outcome": "Identify the risks and benefits of outsourcing to the cloud.",
+          "mastery": "Familiarity",
+          "tier": null,
+          "xref": null
+        }
+      ]
+    },
+    {
+      "ku": "Digital Forensics",
+      "tiers": {
+        "tier": "Elective",
+        "hours": null
+      },
+      "topics": [
+        {
+          "topic": "Basic Principles and methodologies for digital forensics",
+          "tier": null,
+          "subtopics": []
+        },
+        {
+          "topic": "Design systems with forensic needs in mind",
+          "tier": null,
+          "subtopics": []
+        },
+        {
+          "topic": "Rules of Evidence \u2013 general concepts and differences between jurisdictions and Chain of Custody",
+          "tier": null,
+          "subtopics": []
+        },
+        {
+          "topic": "Search and Seizure of evidence: legal and procedural requirements",
+          "tier": null,
+          "subtopics": []
+        },
+        {
+          "topic": "Digital Evidence methods and standards",
+          "tier": null,
+          "subtopics": []
+        },
+        {
+          "topic": "Techniques and standards for Preservation of Data",
+          "tier": null,
+          "subtopics": []
+        },
+        {
+          "topic": "Legal and Reporting Issues including working as an expert witness",
+          "tier": null,
+          "subtopics": []
+        },
+        {
+          "topic": "OS/File System Forensics",
+          "tier": null,
+          "subtopics": []
+        },
+        {
+          "topic": "Application Forensics",
+          "tier": null,
+          "subtopics": []
+        },
+        {
+          "topic": "Web Forensics",
+          "tier": null,
+          "subtopics": []
+        },
+        {
+          "topic": "Network Forensics",
+          "tier": null,
+          "subtopics": []
+        },
+        {
+          "topic": "Mobile Device Forensics",
+          "tier": null,
+          "subtopics": []
+        },
+        {
+          "topic": "Computer/network/system attacks",
+          "tier": null,
+          "subtopics": []
+        },
+        {
+          "topic": "Attack detection and investigation",
+          "tier": null,
+          "subtopics": []
+        },
+        {
+          "topic": "Anti-forensics",
+          "tier": null,
+          "subtopics": []
+        }
+      ],
+      "hours": [],
+      "outcomes": [
+        {
+          "number": "1",
+          "outcome": "Describe what a digital investigation is, the sources of digital evidence, and the limitations of forensics.",
+          "mastery": "Familiarity",
+          "tier": null,
+          "xref": null
+        },
+        {
+          "number": "2",
+          "outcome": "Explain how to design software to support forensics.",
+          "mastery": "Familiarity",
+          "tier": null,
+          "xref": null
+        },
+        {
+          "number": "3",
+          "outcome": "Describe the legal requirements for use of seized data.",
+          "mastery": "Familiarity",
+          "tier": null,
+          "xref": null
+        },
+        {
+          "number": "4",
+          "outcome": "Describe the process of evidence seizure from the time when the requirement was identified to the disposition of the data.",
+          "mastery": "Familiarity",
+          "tier": null,
+          "xref": null
+        },
+        {
+          "number": "5",
+          "outcome": "Describe how data collection is accomplished and the proper storage of the original and forensics copy.",
+          "mastery": "Familiarity",
+          "tier": null,
+          "xref": null
+        },
+        {
+          "number": "6",
+          "outcome": "Conduct data collection on a hard drive.",
+          "mastery": "Usage",
+          "tier": null,
+          "xref": null
+        },
+        {
+          "number": "7",
+          "outcome": "Describe a person\u2019s responsibility and liability while testifying as a forensics examiner.",
+          "mastery": "Familiarity",
+          "tier": null,
+          "xref": null
+        },
+        {
+          "number": "8",
+          "outcome": "Recover data based on a given search term from an imaged system.",
+          "mastery": "Usage",
+          "tier": null,
+          "xref": null
+        },
+        {
+          "number": "9",
+          "outcome": "Reconstruct application history from application artifacts.",
+          "mastery": "Usage",
+          "tier": null,
+          "xref": null
+        },
+        {
+          "number": "10",
+          "outcome": "Reconstruct web browsing history from web artifacts.",
+          "mastery": "Usage",
+          "tier": null,
+          "xref": null
+        },
+        {
+          "number": "11",
+          "outcome": "Capture and interpret network traffic.",
+          "mastery": "Usage",
+          "tier": null,
+          "xref": null
+        },
+        {
+          "number": "12",
+          "outcome": "Discuss the challenges associated with mobile device forensics.",
+          "mastery": "Familiarity",
+          "tier": null,
+          "xref": null
+        },
+        {
+          "number": "13",
+          "outcome": "Inspect a system (network, computer, or application) for the presence of malware or malicious activity.",
+          "mastery": "Usage",
+          "tier": null,
+          "xref": null
+        },
+        {
+          "number": "14",
+          "outcome": "Apply forensics tools to investigate security breaches.",
+          "mastery": "Usage",
+          "tier": null,
+          "xref": null
+        },
+        {
+          "number": "15",
+          "outcome": "Identify anti-forensic methods.",
+          "mastery": "Familiarity",
+          "tier": null,
+          "xref": null
+        }
+      ]
+    },
+    {
+      "ku": "Secure Software Engineering",
+      "tiers": {
+        "tier": "Elective",
+        "hours": null
+      },
+      "topics": [
+        {
+          "topic": "Building security into the software development lifecycle (cross-reference SE/Software Processes)",
+          "tier": null,
+          "subtopics": []
+        },
+        {
+          "topic": "Secure design principles and patterns",
+          "tier": null,
+          "subtopics": []
+        },
+        {
+          "topic": "Secure software specifications and requirements",
+          "tier": null,
+          "subtopics": []
+        },
+        {
+          "topic": "Secure software development practices (cross-reference SE/Software Construction)",
+          "tier": null,
+          "subtopics": []
+        },
+        {
+          "topic": "Secure testing - the process of testing that security requirements are met (including static and dynamic analysis).",
+          "tier": null,
+          "subtopics": []
+        },
+        {
+          "topic": "Software quality assurance and benchmarking measurements",
+          "tier": null,
+          "subtopics": []
+        }
+      ],
+      "hours": [],
+      "outcomes": [
+        {
+          "number": "1",
+          "outcome": "Describe the requirements for integrating security into the software development lifecycle.",
+          "mastery": "Familiarity",
+          "tier": null,
+          "xref": null
+        },
+        {
+          "number": "2",
+          "outcome": "Apply the concepts of the Design Principles for Protection Mechanisms, the Principles for Software Security [2], and the Principles for Secure Design [1] on a software development project.",
+          "mastery": "Usage",
+          "tier": null,
+          "xref": null
+        },
+        {
+          "number": "3",
+          "outcome": "Develop specifications for a software development effort that fully specify functional requirements and identifies the expected execution paths.",
+          "mastery": "Usage",
+          "tier": null,
+          "xref": null
+        },
+        {
+          "number": "4",
+          "outcome": "Describe software development best practices for minimizing vulnerabilities in programming code.",
+          "mastery": "Familiarity",
+          "tier": null,
+          "xref": null
+        },
+        {
+          "number": "5",
+          "outcome": "Conduct a security verification and assessment (static and dynamic) of a software application.",
+          "mastery": "Usage",
+          "tier": null,
+          "xref": null
+        }
+      ]
+    }
+  ],
+  "references": [
+    {
+      "ref_no": "1",
+      "ref_entry": "Gasser, M. Building a Secure Computer System, Van Nostrand Reinhold, 1988."
+    },
+    {
+      "ref_no": "2",
+      "ref_entry": "Viega, J. and McGraw, G. Building Secure Software: How to Avoid Security Problems the Right Way, Addison-Wesley, 2002."
+    }
+  ]
+}

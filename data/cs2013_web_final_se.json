@@ -1,0 +1,1515 @@
+{
+  "ka": "Software Engineering",
+  "short_ka": "SE",
+  "units": [
+    {
+      "ku": "Software Processes",
+      "tiers": [
+        {
+          "tier": "Core-Tier1",
+          "hours": "2"
+        },
+        {
+          "tier": "Core-Tier2",
+          "hours": "1"
+        }
+      ],
+      "topics": [
+        {
+          "topic": "Systems level considerations, i.e., the interaction of software with its intended environment (cross- reference IAS/Secure Software Engineering)",
+          "tier": "Core-Tier1",
+          "subtopics": []
+        },
+        {
+          "topic": "Introduction to software process models (e.g., waterfall, incremental, agile)",
+          "tier": "Core-Tier1",
+          "subtopics": [
+            "Activities within software lifecycles"
+          ]
+        },
+        {
+          "topic": "Programming in the large vs. individual programming",
+          "tier": "Core-Tier1",
+          "subtopics": []
+        },
+        {
+          "topic": "Evaluation of software process models",
+          "tier": "Core-Tier2",
+          "subtopics": []
+        },
+        {
+          "topic": "Software quality concepts",
+          "tier": "Elective",
+          "subtopics": []
+        },
+        {
+          "topic": "Process improvement",
+          "tier": "Elective",
+          "subtopics": []
+        },
+        {
+          "topic": "Software process capability maturity models",
+          "tier": "Elective",
+          "subtopics": []
+        },
+        {
+          "topic": "Software process measurements",
+          "tier": "Elective",
+          "subtopics": []
+        }
+      ],
+      "hours": [],
+      "outcomes": [
+        {
+          "number": "1",
+          "outcome": "Describe how software can interact with and participate in various systems including information management, embedded, process control, and communications systems.",
+          "mastery": "Familiarity",
+          "tier": "Core-Tier1",
+          "xref": null
+        },
+        {
+          "number": "2",
+          "outcome": "Describe the relative advantages and disadvantages among several major process models (e.g., waterfall, iterative, and agile).",
+          "mastery": "Familiarity",
+          "tier": "Core-Tier1",
+          "xref": null
+        },
+        {
+          "number": "3",
+          "outcome": "Describe the different practices that are key components of various process models.",
+          "mastery": "Familiarity",
+          "tier": "Core-Tier1",
+          "xref": null
+        },
+        {
+          "number": "4",
+          "outcome": "Differentiate among the phases of software development.",
+          "mastery": "Familiarity",
+          "tier": "Core-Tier1",
+          "xref": null
+        },
+        {
+          "number": "5",
+          "outcome": "Describe how programming in the large differs from individual efforts with respect to understanding a large code base, code reading, understanding builds, and understanding context of changes.",
+          "mastery": "Familiarity",
+          "tier": "Core-Tier1",
+          "xref": null
+        },
+        {
+          "number": "6",
+          "outcome": "Explain the concept of a software lifecycle and provide an example, illustrating its phases including the deliverables that are produced.",
+          "mastery": "Familiarity",
+          "tier": "Core-Tier2",
+          "xref": null
+        },
+        {
+          "number": "7",
+          "outcome": "Compare several common process models with respect to their value for development of particular classes of software systems taking into account issues such as requirement stability, size, and non-functional characteristics.",
+          "mastery": "Usage",
+          "tier": "Core-Tier2",
+          "xref": null
+        },
+        {
+          "number": "8",
+          "outcome": "Define software quality and describe the role of quality assurance activities in the software process.",
+          "mastery": "Familiarity",
+          "tier": "Elective",
+          "xref": null
+        },
+        {
+          "number": "9",
+          "outcome": "Describe the intent and fundamental similarities among process improvement approaches.",
+          "mastery": "Familiarity",
+          "tier": "Elective",
+          "xref": null
+        },
+        {
+          "number": "10",
+          "outcome": "Compare several process improvement models such as CMM, CMMI, CQI, Plan-Do-Check-Act, or ISO9000.",
+          "mastery": "Assessment",
+          "tier": "Elective",
+          "xref": null
+        },
+        {
+          "number": "11",
+          "outcome": "Assess a development effort and recommend potential changes by participating in process improvement (using a model such as PSP) or engaging in a project retrospective.",
+          "mastery": "Usage",
+          "tier": "Elective",
+          "xref": null
+        },
+        {
+          "number": "12",
+          "outcome": "Explain the role of process maturity models in process improvement.",
+          "mastery": "Familiarity",
+          "tier": "Elective",
+          "xref": null
+        },
+        {
+          "number": "13",
+          "outcome": "Describe several process metrics for assessing and controlling a project.",
+          "mastery": "Familiarity",
+          "tier": "Elective",
+          "xref": null
+        },
+        {
+          "number": "14",
+          "outcome": "Use project metrics to describe the current state of a project.",
+          "mastery": "Usage",
+          "tier": "Elective",
+          "xref": null
+        }
+      ]
+    },
+    {
+      "ku": "Software Project Management",
+      "tiers": [
+        {
+          "tier": "Core-Tier2",
+          "hours": "2"
+        }
+      ],
+      "topics": [
+        {
+          "topic": "Team participation",
+          "tier": "Core-Tier2",
+          "subtopics": [
+            "Team processes including responsibilities for tasks, meeting structure, and work schedule",
+            "Roles and responsibilities in a software team",
+            "Team conflict resolution",
+            "Risks associated with virtual teams (communication, perception, structure)"
+          ]
+        },
+        {
+          "topic": "Effort Estimation (at the personal level)",
+          "tier": "Core-Tier2",
+          "subtopics": []
+        },
+        {
+          "topic": "Risk (cross reference IAS/Secure Software Engineering)",
+          "tier": "Core-Tier2",
+          "subtopics": [
+            "The role of risk in the lifecycle",
+            "Risk categories including security, safety, market, financial, technology, people, quality, structure and process"
+          ]
+        },
+        {
+          "topic": "Team management",
+          "tier": "Elective",
+          "subtopics": [
+            "Team organization and decision-making",
+            "Role identification and assignment",
+            "Individual and team performance assessment"
+          ]
+        },
+        {
+          "topic": "Project management",
+          "tier": "Elective",
+          "subtopics": [
+            "Scheduling and tracking",
+            "Project management tools",
+            "Cost/benefit analysis"
+          ]
+        },
+        {
+          "topic": "Software measurement and estimation techniques",
+          "tier": "Elective",
+          "subtopics": []
+        },
+        {
+          "topic": "Software quality assurance and the role of measurements",
+          "tier": "Elective",
+          "subtopics": []
+        },
+        {
+          "topic": "Risk",
+          "tier": "Elective",
+          "subtopics": [
+            "Risk identification and management",
+            "Risk analysis and evaluation",
+            "Risk tolerance (e.g., risk-adverse, risk-neutral, risk-seeking)",
+            "Risk planning"
+          ]
+        },
+        {
+          "topic": "System-wide approach to risk including hazards associated with tools",
+          "tier": "Elective",
+          "subtopics": []
+        }
+      ],
+      "hours": [],
+      "outcomes": [
+        {
+          "number": "1",
+          "outcome": "Discuss common behaviors that contribute to the effective functioning of a team.",
+          "mastery": "Familiarity",
+          "tier": "Core-Tier2",
+          "xref": null
+        },
+        {
+          "number": "2",
+          "outcome": "Create and follow an agenda for a team meeting.",
+          "mastery": "Usage",
+          "tier": "Core-Tier2",
+          "xref": null
+        },
+        {
+          "number": "3",
+          "outcome": "Identify and justify necessary roles in a software development team.",
+          "mastery": "Usage",
+          "tier": "Core-Tier2",
+          "xref": null
+        },
+        {
+          "number": "4",
+          "outcome": "Understand the sources, hazards, and potential benefits of team conflict.",
+          "mastery": "Usage",
+          "tier": "Core-Tier2",
+          "xref": null
+        },
+        {
+          "number": "5",
+          "outcome": "Apply a conflict resolution strategy in a team setting.",
+          "mastery": "Usage",
+          "tier": "Core-Tier2",
+          "xref": null
+        },
+        {
+          "number": "6",
+          "outcome": "Use an ad hoc method to estimate software development effort (e.g., time) and compare to actual effort required.",
+          "mastery": "Usage",
+          "tier": "Core-Tier2",
+          "xref": null
+        },
+        {
+          "number": "7",
+          "outcome": "List several examples of software risks.",
+          "mastery": "Familiarity",
+          "tier": "Core-Tier2",
+          "xref": null
+        },
+        {
+          "number": "8",
+          "outcome": "Describe the impact of risk in a software development lifecycle.",
+          "mastery": "Familiarity",
+          "tier": "Core-Tier2",
+          "xref": null
+        },
+        {
+          "number": "9",
+          "outcome": "Describe different categories of risk in software systems.",
+          "mastery": "Familiarity",
+          "tier": "Core-Tier2",
+          "xref": null
+        },
+        {
+          "number": "10",
+          "outcome": "Demonstrate through involvement in a team project the central elements of team building and team management.",
+          "mastery": "Usage",
+          "tier": "Elective",
+          "xref": null
+        },
+        {
+          "number": "11",
+          "outcome": "Describe how the choice of process model affects team organizational structures and decision-making processes.",
+          "mastery": "Familiarity",
+          "tier": "Elective",
+          "xref": null
+        },
+        {
+          "number": "12",
+          "outcome": "Create a team by identifying appropriate roles and assigning roles to team members.",
+          "mastery": "Usage",
+          "tier": "Elective",
+          "xref": null
+        },
+        {
+          "number": "13",
+          "outcome": "Assess and provide feedback to teams and individuals on their performance in a team setting.",
+          "mastery": "Usage",
+          "tier": "Elective",
+          "xref": null
+        },
+        {
+          "number": "14",
+          "outcome": "Using a particular software process, describe the aspects of a project that need to be planned and monitored, (e.g., estimates of size and effort, a schedule, resource allocation, configuration control, change management, and project risk identification and management).",
+          "mastery": "Familiarity",
+          "tier": "Elective",
+          "xref": null
+        },
+        {
+          "number": "15",
+          "outcome": "Track the progress of some stage in a project using appropriate project metrics.",
+          "mastery": "Usage",
+          "tier": "Elective",
+          "xref": null
+        },
+        {
+          "number": "16",
+          "outcome": "Compare simple software size and cost estimation techniques.",
+          "mastery": "Usage",
+          "tier": "Elective",
+          "xref": null
+        },
+        {
+          "number": "17",
+          "outcome": "Use a project management tool to assist in the assignment and tracking of tasks in a software development project.",
+          "mastery": "Usage",
+          "tier": "Elective",
+          "xref": null
+        },
+        {
+          "number": "18",
+          "outcome": "Describe the impact of risk tolerance on the software development process.",
+          "mastery": "Assessment",
+          "tier": "Elective",
+          "xref": null
+        },
+        {
+          "number": "19",
+          "outcome": "Identify risks and describe approaches to managing risk (avoidance, acceptance, transference, mitigation), and characterize the strengths and shortcomings of each.",
+          "mastery": "Familiarity",
+          "tier": "Elective",
+          "xref": null
+        },
+        {
+          "number": "20",
+          "outcome": "Explain how risk affects decisions in the software development process.",
+          "mastery": "Usage",
+          "tier": "Elective",
+          "xref": null
+        },
+        {
+          "number": "21",
+          "outcome": "Identify security risks for a software system.",
+          "mastery": "Usage",
+          "tier": "Elective",
+          "xref": null
+        },
+        {
+          "number": "22",
+          "outcome": "Demonstrate a systematic approach to the task of identifying hazards and risks in a particular situation.",
+          "mastery": "Usage",
+          "tier": "Elective",
+          "xref": null
+        },
+        {
+          "number": "23",
+          "outcome": "Apply the basic principles of risk management in a variety of simple scenarios including a security situation.",
+          "mastery": "Usage",
+          "tier": "Elective",
+          "xref": null
+        },
+        {
+          "number": "24",
+          "outcome": "Conduct a cost/benefit analysis for a risk mitigation approach.",
+          "mastery": "Usage",
+          "tier": "Elective",
+          "xref": null
+        },
+        {
+          "number": "25",
+          "outcome": "Identify and analyze some of the risks for an entire system that arise from aspects other than the software.",
+          "mastery": "Usage",
+          "tier": "Elective",
+          "xref": null
+        }
+      ]
+    },
+    {
+      "ku": "Tools and Environments",
+      "tiers": [
+        {
+          "tier": "Core-Tier2",
+          "hours": "2"
+        }
+      ],
+      "topics": [
+        {
+          "topic": "Software configuration management and version control",
+          "tier": null,
+          "subtopics": []
+        },
+        {
+          "topic": "Release management",
+          "tier": null,
+          "subtopics": []
+        },
+        {
+          "topic": "Requirements analysis and design modeling tools",
+          "tier": null,
+          "subtopics": []
+        },
+        {
+          "topic": "Testing tools including static and dynamic analysis tools",
+          "tier": null,
+          "subtopics": []
+        },
+        {
+          "topic": "Programming environments that automate parts of program construction processes (e.g., automated builds)",
+          "tier": null,
+          "subtopics": [
+            "Continuous integration"
+          ]
+        },
+        {
+          "topic": "Tool integration concepts and mechanisms",
+          "tier": null,
+          "subtopics": []
+        }
+      ],
+      "hours": [],
+      "outcomes": [
+        {
+          "number": "1",
+          "outcome": "Describe the difference between centralized and distributed software configuration management.",
+          "mastery": "Familiarity",
+          "tier": null,
+          "xref": null
+        },
+        {
+          "number": "2",
+          "outcome": "Describe how version control can be used to help manage software release management.",
+          "mastery": "Familiarity",
+          "tier": null,
+          "xref": null
+        },
+        {
+          "number": "3",
+          "outcome": "Identify configuration items and use a source code control tool in a small team-based project.",
+          "mastery": "Usage",
+          "tier": null,
+          "xref": null
+        },
+        {
+          "number": "4",
+          "outcome": "Describe how available static and dynamic test tools can be integrated into the software development environment.",
+          "mastery": "Familiarity",
+          "tier": null,
+          "xref": null
+        },
+        {
+          "number": "5",
+          "outcome": "Describe the issues that are important in selecting a set of tools for the development of a particular software system, including tools for requirements tracking, design modeling, implementation, build automation, and testing.",
+          "mastery": "Familiarity",
+          "tier": null,
+          "xref": null
+        },
+        {
+          "number": "6",
+          "outcome": "Demonstrate the capability to use software tools in support of the development of a software product of medium size.",
+          "mastery": "Usage",
+          "tier": null,
+          "xref": null
+        }
+      ]
+    },
+    {
+      "ku": "Requirements Engineering",
+      "tiers": [
+        {
+          "tier": "Core-Tier1",
+          "hours": "1"
+        },
+        {
+          "tier": "Core-Tier2",
+          "hours": "3"
+        }
+      ],
+      "topics": [
+        {
+          "topic": "Describing functional requirements using, for example, use cases or users stories",
+          "tier": "Core-Tier1",
+          "subtopics": []
+        },
+        {
+          "topic": "Properties of requirements including consistency, validity, completeness, and feasibility",
+          "tier": "Core-Tier1",
+          "subtopics": []
+        },
+        {
+          "topic": "Software requirements elicitation",
+          "tier": "Core-Tier2",
+          "subtopics": []
+        },
+        {
+          "topic": "Describing system data using, for example, class diagrams or entity-relationship diagrams",
+          "tier": "Core-Tier2",
+          "subtopics": []
+        },
+        {
+          "topic": "Non-functional requirements and their relationship to software quality (cross-reference IAS/Secure Software Engineering)",
+          "tier": "Core-Tier2",
+          "subtopics": []
+        },
+        {
+          "topic": "Evaluation and use of requirements specifications",
+          "tier": "Core-Tier2",
+          "subtopics": []
+        },
+        {
+          "topic": "Requirements analysis modeling techniques",
+          "tier": "Elective",
+          "subtopics": []
+        },
+        {
+          "topic": "Acceptability of certainty / uncertainty considerations regarding software / system behavior",
+          "tier": "Elective",
+          "subtopics": []
+        },
+        {
+          "topic": "Prototyping",
+          "tier": "Elective",
+          "subtopics": []
+        },
+        {
+          "topic": "Basic concepts of formal requirements specification",
+          "tier": "Elective",
+          "subtopics": []
+        },
+        {
+          "topic": "Requirements specification",
+          "tier": "Elective",
+          "subtopics": []
+        },
+        {
+          "topic": "Requirements validation",
+          "tier": "Elective",
+          "subtopics": []
+        },
+        {
+          "topic": "Requirements tracing",
+          "tier": "Elective",
+          "subtopics": []
+        }
+      ],
+      "hours": [],
+      "outcomes": [
+        {
+          "number": "1",
+          "outcome": "List the key components of a use case or similar description of some behavior that is required for a system.",
+          "mastery": "Familiarity",
+          "tier": "Core-Tier1",
+          "xref": null
+        },
+        {
+          "number": "2",
+          "outcome": "Describe how the requirements engineering process supports the elicitation and validation of behavioral requirements.",
+          "mastery": "Familiarity",
+          "tier": "Core-Tier1",
+          "xref": null
+        },
+        {
+          "number": "3",
+          "outcome": "Interpret a given requirements model for a simple software system.",
+          "mastery": "Familiarity",
+          "tier": "Core-Tier1",
+          "xref": null
+        },
+        {
+          "number": "4",
+          "outcome": "Describe the fundamental challenges of and common techniques used for requirements elicitation.",
+          "mastery": "Familiarity",
+          "tier": "Core-Tier2",
+          "xref": null
+        },
+        {
+          "number": "5",
+          "outcome": "List the key components of a data model (e.g., class diagrams or ER diagrams).",
+          "mastery": "Familiarity",
+          "tier": "Core-Tier2",
+          "xref": null
+        },
+        {
+          "number": "6",
+          "outcome": "Identify both functional and non-functional requirements in a given requirements specification for a software system.",
+          "mastery": "Usage",
+          "tier": "Core-Tier2",
+          "xref": null
+        },
+        {
+          "number": "7",
+          "outcome": "Conduct a review of a set of software requirements to determine the quality of the requirements with respect to the characteristics of good requirements.",
+          "mastery": "Usage",
+          "tier": "Core-Tier2",
+          "xref": null
+        },
+        {
+          "number": "8",
+          "outcome": "Apply key elements and common methods for elicitation and analysis to produce a set of software requirements for a medium-sized software system.",
+          "mastery": "Usage",
+          "tier": "Elective",
+          "xref": null
+        },
+        {
+          "number": "9",
+          "outcome": "Compare the plan-driven and agile approaches to requirements specification and validation and describe the benefits and risks associated with each.",
+          "mastery": "Familiarity",
+          "tier": "Elective",
+          "xref": null
+        },
+        {
+          "number": "10",
+          "outcome": "Use a common, non-formal method to model and specify the requirements for a medium-size software system.",
+          "mastery": "Usage",
+          "tier": "Elective",
+          "xref": null
+        },
+        {
+          "number": "11",
+          "outcome": "Translate into natural language a software requirements specification (e.g., a software component contract) written in a formal specification language.",
+          "mastery": "Usage",
+          "tier": "Elective",
+          "xref": null
+        },
+        {
+          "number": "12",
+          "outcome": "Create a prototype of a software system to mitigate risk in requirements.",
+          "mastery": "Usage",
+          "tier": "Elective",
+          "xref": null
+        },
+        {
+          "number": "13",
+          "outcome": "Differentiate between forward and backward tracing and explain their roles in the requirements validation process.",
+          "mastery": "Familiarity",
+          "tier": "Elective",
+          "xref": null
+        }
+      ]
+    },
+    {
+      "ku": "Software Design",
+      "tiers": [
+        {
+          "tier": "Core-Tier1",
+          "hours": "3"
+        },
+        {
+          "tier": "Core-Tier2",
+          "hours": "5"
+        }
+      ],
+      "topics": [
+        {
+          "topic": "System design principles: levels of abstraction (architectural design and detailed design), separation of concerns, information hiding, coupling and cohesion, re-use of standard structures",
+          "tier": "Core-Tier1",
+          "subtopics": []
+        },
+        {
+          "topic": "Design Paradigms such as structured design (top-down functional decomposition), object-oriented analysis and design, event driven design, component-level design, data-structured centered, aspect oriented, function oriented, service oriented",
+          "tier": "Core-Tier1",
+          "subtopics": []
+        },
+        {
+          "topic": "Structural and behavioral models of software designs",
+          "tier": "Core-Tier1",
+          "subtopics": []
+        },
+        {
+          "topic": "Design patterns",
+          "tier": "Core-Tier1",
+          "subtopics": []
+        },
+        {
+          "topic": "Relationships between requirements and designs: transformation of models, design of contracts, invariants",
+          "tier": "Core-Tier2",
+          "subtopics": []
+        },
+        {
+          "topic": "Software architecture concepts and standard architectures (e.g. client-server, n-layer, transform centered, pipes-and-filters)",
+          "tier": "Core-Tier2",
+          "subtopics": []
+        },
+        {
+          "topic": "Refactoring designs using design patterns",
+          "tier": "Core-Tier2",
+          "subtopics": []
+        },
+        {
+          "topic": "The use of components in design: component selection, design, adaptation and assembly of components, components and patterns, components and objects (for example, building a GUI using a standard widget set)",
+          "tier": "Core-Tier2",
+          "subtopics": []
+        },
+        {
+          "topic": "Internal design qualities, and models for them: efficiency and performance, redundancy and fault tolerance, traceability of requirements",
+          "tier": "Elective",
+          "subtopics": []
+        },
+        {
+          "topic": "External design qualities, and models for them: functionality, reliability, performance and efficiency, usability, maintainability, portability",
+          "tier": "Elective",
+          "subtopics": []
+        },
+        {
+          "topic": "Measurement and analysis of design quality",
+          "tier": "Elective",
+          "subtopics": []
+        },
+        {
+          "topic": "Tradeoffs between different aspects of quality",
+          "tier": "Elective",
+          "subtopics": []
+        },
+        {
+          "topic": "Application frameworks",
+          "tier": "Elective",
+          "subtopics": []
+        },
+        {
+          "topic": "Middleware: the object-oriented paradigm within middleware, object request brokers and marshalling, transaction processing monitors, workflow systems",
+          "tier": "Elective",
+          "subtopics": []
+        },
+        {
+          "topic": "Principles of secure design and coding (cross-reference IAS/Principles of Secure Design)",
+          "tier": "Elective",
+          "subtopics": [
+            "Principle of least privilege",
+            "Principle of fail-safe defaults",
+            "Principle of psychological acceptability"
+          ]
+        }
+      ],
+      "hours": [],
+      "outcomes": [
+        {
+          "number": "1",
+          "outcome": "Articulate design principles including separation of concerns, information hiding, coupling and cohesion, and encapsulation.",
+          "mastery": "Familiarity",
+          "tier": "Core-Tier1",
+          "xref": null
+        },
+        {
+          "number": "2",
+          "outcome": "Use a design paradigm to design a simple software system, and explain how system design principles have been applied in this design.",
+          "mastery": "Usage",
+          "tier": "Core-Tier1",
+          "xref": null
+        },
+        {
+          "number": "3",
+          "outcome": "Construct models of the design of a simple software system that are appropriate for the paradigm used to design it.",
+          "mastery": "Usage",
+          "tier": "Core-Tier1",
+          "xref": null
+        },
+        {
+          "number": "4",
+          "outcome": "Within the context of a single design paradigm, describe one or more design patterns that could be applicable to the design of a simple software system.",
+          "mastery": "Familiarity",
+          "tier": "Core-Tier1",
+          "xref": null
+        },
+        {
+          "number": "5",
+          "outcome": "For a simple system suitable for a given scenario, discuss and select an appropriate design paradigm.",
+          "mastery": "Usage",
+          "tier": "Core-Tier2",
+          "xref": null
+        },
+        {
+          "number": "6",
+          "outcome": "Create appropriate models for the structure and behavior of software products from their requirements specifications.",
+          "mastery": "Usage",
+          "tier": "Core-Tier2",
+          "xref": null
+        },
+        {
+          "number": "7",
+          "outcome": "Explain the relationships between the requirements for a software product and its design, using appropriate models.",
+          "mastery": "Assessment",
+          "tier": "Core-Tier2",
+          "xref": null
+        },
+        {
+          "number": "8",
+          "outcome": "For the design of a simple software system within the context of a single design paradigm, describe the software architecture of that system.",
+          "mastery": "Familiarity",
+          "tier": "Core-Tier2",
+          "xref": null
+        },
+        {
+          "number": "9",
+          "outcome": "Given a high-level design, identify the software architecture by differentiating among common software architectures such as 3-tier, pipe-and-filter, and client-server.",
+          "mastery": "Familiarity",
+          "tier": "Core-Tier2",
+          "xref": null
+        },
+        {
+          "number": "10",
+          "outcome": "Investigate the impact of software architectures selection on the design of a simple system.",
+          "mastery": "Assessment",
+          "tier": "Core-Tier2",
+          "xref": null
+        },
+        {
+          "number": "11",
+          "outcome": "Apply simple examples of patterns in a software design.",
+          "mastery": "Usage",
+          "tier": "Core-Tier2",
+          "xref": null
+        },
+        {
+          "number": "12",
+          "outcome": "Describe a form of refactoring and discuss when it may be applicable.",
+          "mastery": "Familiarity",
+          "tier": "Core-Tier2",
+          "xref": null
+        },
+        {
+          "number": "13",
+          "outcome": "Select suitable components for use in the design of a software product.",
+          "mastery": "Usage",
+          "tier": "Core-Tier2",
+          "xref": null
+        },
+        {
+          "number": "14",
+          "outcome": "Explain how suitable components might need to be adapted for use in the design of a software product.",
+          "mastery": "Familiarity",
+          "tier": "Core-Tier2",
+          "xref": null
+        },
+        {
+          "number": "15",
+          "outcome": "Design a contract for a typical small software component for use in a given system.",
+          "mastery": "Usage",
+          "tier": "Core-Tier2",
+          "xref": null
+        },
+        {
+          "number": "16",
+          "outcome": "Discuss and select appropriate software architecture for a simple system suitable for a given scenario.",
+          "mastery": "Usage",
+          "tier": "Elective",
+          "xref": null
+        },
+        {
+          "number": "17",
+          "outcome": "Apply models for internal and external qualities in designing software components to achieve an acceptable tradeoff between conflicting quality aspects.",
+          "mastery": "Usage",
+          "tier": "Elective",
+          "xref": null
+        },
+        {
+          "number": "18",
+          "outcome": "Analyze a software design from the perspective of a significant internal quality attribute.",
+          "mastery": "Assessment",
+          "tier": "Elective",
+          "xref": null
+        },
+        {
+          "number": "19",
+          "outcome": "Analyze a software design from the perspective of a significant external quality attribute.",
+          "mastery": "Assessment",
+          "tier": "Elective",
+          "xref": null
+        },
+        {
+          "number": "20",
+          "outcome": "Explain the role of objects in middleware systems and the relationship with components.",
+          "mastery": "Familiarity",
+          "tier": "Elective",
+          "xref": null
+        },
+        {
+          "number": "21",
+          "outcome": "Apply component-oriented approaches to the design of a range of software, such as using components for concurrency and transactions, for reliable communication services, for database interaction including services for remote query and database management, or for secure communication and access.",
+          "mastery": "Usage",
+          "tier": "Elective",
+          "xref": null
+        },
+        {
+          "number": "22",
+          "outcome": "Refactor an existing software implementation to improve some aspect of its design.",
+          "mastery": "Usage",
+          "tier": "Elective",
+          "xref": null
+        },
+        {
+          "number": "23",
+          "outcome": "State and apply the principles of least privilege and fail-safe defaults.",
+          "mastery": "Familiarity",
+          "tier": "Elective",
+          "xref": null
+        }
+      ]
+    },
+    {
+      "ku": "Software Construction",
+      "tiers": [
+        {
+          "tier": "Core-Tier2",
+          "hours": "2"
+        }
+      ],
+      "topics": [
+        {
+          "topic": "Coding practices: techniques, idioms/patterns, mechanisms for building quality programs (cross-reference IAS/Defensive Programming; SDF/Development Methods)",
+          "tier": "Core-Tier2",
+          "subtopics": [
+            "Defensive coding practices",
+            "Secure coding practices",
+            "Using exception handling mechanisms to make programs more robust, fault-tolerant"
+          ]
+        },
+        {
+          "topic": "Coding standards",
+          "tier": "Core-Tier2",
+          "subtopics": []
+        },
+        {
+          "topic": "Integration strategies",
+          "tier": "Core-Tier2",
+          "subtopics": []
+        },
+        {
+          "topic": "Development context: \u201cgreen field\u201d vs. existing code base",
+          "tier": "Core-Tier2",
+          "subtopics": [
+            "Change impact analysis",
+            "Change actualization"
+          ]
+        },
+        {
+          "topic": "Potential security problems in programs",
+          "tier": "Elective",
+          "subtopics": [
+            "Buffer and other types of overflows",
+            "Race conditions",
+            "Improper initialization, including choice of privileges",
+            "Checking input",
+            "Assuming success and correctness",
+            "Validating assumptions"
+          ]
+        }
+      ],
+      "hours": [],
+      "outcomes": [
+        {
+          "number": "1",
+          "outcome": "Describe techniques, coding idioms and mechanisms for implementing designs to achieve desired properties such as reliability, efficiency, and robustness.",
+          "mastery": "Familiarity",
+          "tier": "Core-Tier2",
+          "xref": null
+        },
+        {
+          "number": "2",
+          "outcome": "Build robust code using exception handling mechanisms.",
+          "mastery": "Usage",
+          "tier": "Core-Tier2",
+          "xref": null
+        },
+        {
+          "number": "3",
+          "outcome": "Describe secure coding and defensive coding practices.",
+          "mastery": "Familiarity",
+          "tier": "Core-Tier2",
+          "xref": null
+        },
+        {
+          "number": "4",
+          "outcome": "Select and use a defined coding standard in a small software project.",
+          "mastery": "Usage",
+          "tier": "Core-Tier2",
+          "xref": null
+        },
+        {
+          "number": "5",
+          "outcome": "Compare and contrast integration strategies including top-down, bottom-up, and sandwich integration.",
+          "mastery": "Familiarity",
+          "tier": "Core-Tier2",
+          "xref": null
+        },
+        {
+          "number": "6",
+          "outcome": "Describe the process of analyzing and implementing changes to code base developed for a specific project.",
+          "mastery": "Familiarity",
+          "tier": "Core-Tier2",
+          "xref": null
+        },
+        {
+          "number": "7",
+          "outcome": "Describe the process of analyzing and implementing changes to a large existing code base.",
+          "mastery": "Familiarity",
+          "tier": "Core-Tier2",
+          "xref": null
+        },
+        {
+          "number": "8",
+          "outcome": "Rewrite a simple program to remove common vulnerabilities, such as buffer overflows, integer overflows and race conditions.",
+          "mastery": "Usage",
+          "tier": "Elective",
+          "xref": null
+        },
+        {
+          "number": "9",
+          "outcome": "Write a software component that performs some non-trivial task and is resilient to input and run-time errors.",
+          "mastery": "Usage",
+          "tier": "Elective",
+          "xref": null
+        }
+      ]
+    },
+    {
+      "ku": "Software Verification and Validation",
+      "tiers": [
+        {
+          "tier": "Core-Tier2",
+          "hours": "4"
+        }
+      ],
+      "topics": [
+        {
+          "topic": "Verification and validation concepts",
+          "tier": "Core-Tier2",
+          "subtopics": []
+        },
+        {
+          "topic": "Inspections, reviews, audits",
+          "tier": "Core-Tier2",
+          "subtopics": []
+        },
+        {
+          "topic": "Testing types, including human computer interface, usability, reliability, security, conformance to specification (cross-reference IAS/Secure Software Engineering)",
+          "tier": "Core-Tier2",
+          "subtopics": []
+        },
+        {
+          "topic": "Testing fundamentals (cross-reference SDF/Development Methods)",
+          "tier": "Core-Tier2",
+          "subtopics": [
+            "Unit, integration, validation, and system testing",
+            "Test plan creation and test case generation",
+            "Black-box and white-box testing techniques",
+            "Regression testing and test automation"
+          ]
+        },
+        {
+          "topic": "Defect tracking",
+          "tier": "Core-Tier2",
+          "subtopics": []
+        },
+        {
+          "topic": "Limitations of testing in particular domains, such as parallel or safety-critical systems",
+          "tier": "Core-Tier2",
+          "subtopics": []
+        },
+        {
+          "topic": "Static approaches and dynamic approaches to verification",
+          "tier": "Elective",
+          "subtopics": []
+        },
+        {
+          "topic": "Test-driven development",
+          "tier": "Elective",
+          "subtopics": []
+        },
+        {
+          "topic": "Validation planning; documentation for validation",
+          "tier": "Elective",
+          "subtopics": []
+        },
+        {
+          "topic": "Object-oriented testing; systems testing",
+          "tier": "Elective",
+          "subtopics": []
+        },
+        {
+          "topic": "Verification and validation of non-code artifacts (documentation, help files, training materials)",
+          "tier": "Elective",
+          "subtopics": []
+        },
+        {
+          "topic": "Fault logging, fault tracking and technical support for such activities",
+          "tier": "Elective",
+          "subtopics": []
+        },
+        {
+          "topic": "Fault estimation and testing termination including defect seeding",
+          "tier": "Elective",
+          "subtopics": []
+        }
+      ],
+      "hours": [],
+      "outcomes": [
+        {
+          "number": "1",
+          "outcome": "Distinguish between program validation and verification.",
+          "mastery": "Familiarity",
+          "tier": "Core-Tier2",
+          "xref": null
+        },
+        {
+          "number": "2",
+          "outcome": "Describe the role that tools can play in the validation of software.",
+          "mastery": "Familiarity",
+          "tier": "Core-Tier2",
+          "xref": null
+        },
+        {
+          "number": "3",
+          "outcome": "Undertake, as part of a team activity, an inspection of a medium-size code segment.",
+          "mastery": "Usage",
+          "tier": "Core-Tier2",
+          "xref": null
+        },
+        {
+          "number": "4",
+          "outcome": "Describe and distinguish among the different types and levels of testing (unit, integration, systems, and acceptance).",
+          "mastery": "Familiarity",
+          "tier": "Core-Tier2",
+          "xref": null
+        },
+        {
+          "number": "5",
+          "outcome": "Describe techniques for identifying significant test cases for integration, regression and system testing.",
+          "mastery": "Familiarity",
+          "tier": "Core-Tier2",
+          "xref": null
+        },
+        {
+          "number": "6",
+          "outcome": "Create and document a set of tests for a medium-size code segment.",
+          "mastery": "Usage",
+          "tier": "Core-Tier2",
+          "xref": null
+        },
+        {
+          "number": "7",
+          "outcome": "Describe how to select good regression tests and automate them.",
+          "mastery": "Familiarity",
+          "tier": "Core-Tier2",
+          "xref": null
+        },
+        {
+          "number": "8",
+          "outcome": "Use a defect tracking tool to manage software defects in a small software project.",
+          "mastery": "Usage",
+          "tier": "Core-Tier2",
+          "xref": null
+        },
+        {
+          "number": "9",
+          "outcome": "Discuss the limitations of testing in a particular domain.",
+          "mastery": "Familiarity",
+          "tier": "Core-Tier2",
+          "xref": null
+        },
+        {
+          "number": "10",
+          "outcome": "Evaluate a test suite for a medium-size code segment.",
+          "mastery": "Usage",
+          "tier": "Elective",
+          "xref": null
+        },
+        {
+          "number": "11",
+          "outcome": "Compare static and dynamic approaches to verification.",
+          "mastery": "Familiarity",
+          "tier": "Elective",
+          "xref": null
+        },
+        {
+          "number": "12",
+          "outcome": "Identify the fundamental principles of test-driven development methods and explain the role of automated testing in these methods.",
+          "mastery": "Familiarity",
+          "tier": "Elective",
+          "xref": null
+        },
+        {
+          "number": "13",
+          "outcome": "Discuss the issues involving the testing of object-oriented software.",
+          "mastery": "Usage",
+          "tier": "Elective",
+          "xref": null
+        },
+        {
+          "number": "14",
+          "outcome": "Describe techniques for the verification and validation of non-code artifacts.",
+          "mastery": "Familiarity",
+          "tier": "Elective",
+          "xref": null
+        },
+        {
+          "number": "15",
+          "outcome": "Describe approaches for fault estimation.",
+          "mastery": "Familiarity",
+          "tier": "Elective",
+          "xref": null
+        },
+        {
+          "number": "16",
+          "outcome": "Estimate the number of faults in a small software application based on fault density and fault seeding.",
+          "mastery": "Usage",
+          "tier": "Elective",
+          "xref": null
+        },
+        {
+          "number": "17",
+          "outcome": "Conduct an inspection or review of software source code for a small or medium sized software project.",
+          "mastery": "Usage",
+          "tier": "Elective",
+          "xref": null
+        }
+      ]
+    },
+    {
+      "ku": "Software Evolution",
+      "tiers": [
+        {
+          "tier": "Core-Tier2",
+          "hours": "2"
+        }
+      ],
+      "topics": [
+        {
+          "topic": "Software development in the context of large, pre-existing code bases",
+          "tier": null,
+          "subtopics": [
+            "Software change",
+            "Concerns and concern location",
+            "Refactoring"
+          ]
+        },
+        {
+          "topic": "Software evolution",
+          "tier": null,
+          "subtopics": []
+        },
+        {
+          "topic": "Characteristics of maintainable software",
+          "tier": null,
+          "subtopics": []
+        },
+        {
+          "topic": "Reengineering systems",
+          "tier": null,
+          "subtopics": []
+        },
+        {
+          "topic": "Software reuse",
+          "tier": null,
+          "subtopics": [
+            "Code segments",
+            "Libraries and frameworks",
+            "Components",
+            "Product lines"
+          ]
+        }
+      ],
+      "hours": [],
+      "outcomes": [
+        {
+          "number": "1",
+          "outcome": "Identify the principal issues associated with software evolution and explain their impact on the software lifecycle.",
+          "mastery": "Familiarity",
+          "tier": null,
+          "xref": null
+        },
+        {
+          "number": "2",
+          "outcome": "Estimate the impact of a change request to an existing product of medium size.",
+          "mastery": "Usage",
+          "tier": null,
+          "xref": null
+        },
+        {
+          "number": "3",
+          "outcome": "Use refactoring in the process of modifying a software component.",
+          "mastery": "Usage",
+          "tier": null,
+          "xref": null
+        },
+        {
+          "number": "4",
+          "outcome": "Discuss the challenges of evolving systems in a changing environment.",
+          "mastery": "Familiarity",
+          "tier": null,
+          "xref": null
+        },
+        {
+          "number": "5",
+          "outcome": "Outline the process of regression testing and its role in release management.",
+          "mastery": "Familiarity",
+          "tier": null,
+          "xref": null
+        },
+        {
+          "number": "6",
+          "outcome": "Discuss the advantages and disadvantages of different types of software reuse.",
+          "mastery": "Familiarity",
+          "tier": null,
+          "xref": null
+        }
+      ]
+    },
+    {
+      "ku": "Software Reliability",
+      "tiers": {
+        "tier": "Core-Tier2",
+        "hours": "1"
+      },
+      "topics": [
+        {
+          "topic": "Software reliability engineering concepts",
+          "tier": "Core-Tier2",
+          "subtopics": []
+        },
+        {
+          "topic": "Software reliability, system reliability and failure behavior (cross-reference SF/Reliability Through Redundancy)",
+          "tier": "Core-Tier2",
+          "subtopics": []
+        },
+        {
+          "topic": "Fault lifecycle concepts and techniques",
+          "tier": "Core-Tier2",
+          "subtopics": []
+        },
+        {
+          "topic": "Software reliability models",
+          "tier": "Elective",
+          "subtopics": []
+        },
+        {
+          "topic": "Software fault tolerance techniques and models",
+          "tier": "Elective",
+          "subtopics": []
+        },
+        {
+          "topic": "Software reliability engineering practices",
+          "tier": "Elective",
+          "subtopics": []
+        },
+        {
+          "topic": "Measurement-based analysis of software reliability",
+          "tier": "Elective",
+          "subtopics": []
+        }
+      ],
+      "hours": [],
+      "outcomes": [
+        {
+          "number": "1",
+          "outcome": "Explain the problems that exist in achieving very high levels of reliability.",
+          "mastery": "Familiarity",
+          "tier": "Core-Tier2",
+          "xref": null
+        },
+        {
+          "number": "2",
+          "outcome": "Describe how software reliability contributes to system reliability.",
+          "mastery": "Familiarity",
+          "tier": "Core-Tier2",
+          "xref": null
+        },
+        {
+          "number": "3",
+          "outcome": "List approaches to minimizing faults that can be applied at each stage of the software lifecycle.",
+          "mastery": "Familiarity",
+          "tier": "Core-Tier2",
+          "xref": null
+        },
+        {
+          "number": "4",
+          "outcome": "Compare the characteristics of three different reliability modeling approaches.",
+          "mastery": "Familiarity",
+          "tier": "Elective",
+          "xref": null
+        },
+        {
+          "number": "5",
+          "outcome": "Demonstrate the ability to apply multiple methods to develop reliability estimates for a software system.",
+          "mastery": "Usage",
+          "tier": "Elective",
+          "xref": null
+        },
+        {
+          "number": "6",
+          "outcome": "Identify methods that will lead to the realization of a software architecture that achieves a specified level of reliability.",
+          "mastery": "Usage",
+          "tier": "Elective",
+          "xref": null
+        },
+        {
+          "number": "7",
+          "outcome": "Identify ways to apply redundancy to achieve fault tolerance for a medium-sized application.",
+          "mastery": "Usage",
+          "tier": "Elective",
+          "xref": null
+        }
+      ]
+    },
+    {
+      "ku": "Formal Methods",
+      "tiers": {
+        "tier": "Elective",
+        "hours": null
+      },
+      "topics": [
+        {
+          "topic": "Role of formal specification and analysis techniques in the software development cycle",
+          "tier": null,
+          "subtopics": []
+        },
+        {
+          "topic": "Program assertion languages and analysis approaches (including languages for writing and analyzing pre- and post-conditions, such as OCL, JML)",
+          "tier": null,
+          "subtopics": []
+        },
+        {
+          "topic": "Formal approaches to software modeling and analysis",
+          "tier": null,
+          "subtopics": [
+            "Model checkers",
+            "Model finders"
+          ]
+        },
+        {
+          "topic": "Tools in support of formal methods",
+          "tier": null,
+          "subtopics": []
+        }
+      ],
+      "hours": [],
+      "outcomes": [
+        {
+          "number": "1",
+          "outcome": "Describe the role formal specification and analysis techniques can play in the development of complex software and compare their use as validation and verification techniques with testing.",
+          "mastery": "Familiarity",
+          "tier": null,
+          "xref": null
+        },
+        {
+          "number": "2",
+          "outcome": "Apply formal specification and analysis techniques to software designs and programs with low complexity.",
+          "mastery": "Usage",
+          "tier": null,
+          "xref": null
+        },
+        {
+          "number": "3",
+          "outcome": "Explain the potential benefits and drawbacks of using formal specification languages.",
+          "mastery": "Familiarity",
+          "tier": null,
+          "xref": null
+        },
+        {
+          "number": "4",
+          "outcome": "Create and evaluate program assertions for a variety of behaviors ranging from simple through complex.",
+          "mastery": "Usage",
+          "tier": null,
+          "xref": null
+        },
+        {
+          "number": "5",
+          "outcome": "Using a common formal specification language, formulate the specification of a simple software system and derive examples of test cases from the specification.",
+          "mastery": "Usage",
+          "tier": null,
+          "xref": null
+        }
+      ]
+    }
+  ],
+  "references": []
+}
