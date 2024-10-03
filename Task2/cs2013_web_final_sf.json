@@ -1,0 +1,711 @@
+{
+  "ka": "Systems Fundamentals",
+  "short_ka": "SF",
+  "units": [
+    {
+      "ku": "Computational Paradigms",
+      "tiers": [
+        {
+          "tier": "Core-Tier1",
+          "hours": "3"
+        }
+      ],
+      "topics": [
+        {
+          "topic": "Basic building blocks and components of a computer (gates, flip-flops, registers, interconnections; Datapath + Control + Memory)",
+          "tier": null,
+          "subtopics": []
+        },
+        {
+          "topic": "Hardware as a computational paradigm: Fundamental logic building blocks; Logic expressions, minimization, sum of product forms",
+          "tier": null,
+          "subtopics": []
+        },
+        {
+          "topic": "Application-level sequential processing: single thread",
+          "tier": null,
+          "subtopics": []
+        },
+        {
+          "topic": "Simple application-level parallel processing: request level (web services/client-server/distributed), single thread per server, multiple threads with multiple servers",
+          "tier": null,
+          "subtopics": []
+        },
+        {
+          "topic": "Basic concept of pipelining, overlapped processing stages",
+          "tier": null,
+          "subtopics": []
+        },
+        {
+          "topic": "Basic concept of scaling: going faster vs. handling larger problems",
+          "tier": null,
+          "subtopics": []
+        }
+      ],
+      "hours": [],
+      "outcomes": [
+        {
+          "number": "1",
+          "outcome": "List commonly encountered patterns of how computations are organized.",
+          "mastery": "Familiarity",
+          "tier": null,
+          "xref": null
+        },
+        {
+          "number": "2",
+          "outcome": "Describe the basic building blocks of computers and their role in the historical development of computer architecture.",
+          "mastery": "Familiarity",
+          "tier": null,
+          "xref": null
+        },
+        {
+          "number": "3",
+          "outcome": "Articulate the differences between single thread vs. multiple thread, single server vs. multiple server models, motivated by real world examples (e.g., cooking recipes, lines for multiple teller machines and couples shopping for food).",
+          "mastery": "Familiarity",
+          "tier": null,
+          "xref": null
+        },
+        {
+          "number": "4",
+          "outcome": "Articulate the concept of strong vs. weak scaling, i.e., how performance is affected by scale of problem vs. scale of resources to solve the problem. This can be motivated by the simple, real-world examples.",
+          "mastery": "Familiarity",
+          "tier": null,
+          "xref": null
+        },
+        {
+          "number": "5",
+          "outcome": "Design a simple logic circuit using the fundamental building blocks of logic design.",
+          "mastery": "Usage",
+          "tier": null,
+          "xref": null
+        },
+        {
+          "number": "6",
+          "outcome": "Use tools for capture, synthesis, and simulation to evaluate a logic design.",
+          "mastery": "Usage",
+          "tier": null,
+          "xref": null
+        },
+        {
+          "number": "7",
+          "outcome": "Write a simple sequential problem and a simple parallel version of the same program.",
+          "mastery": "Usage",
+          "tier": null,
+          "xref": null
+        },
+        {
+          "number": "8",
+          "outcome": "Evaluate performance of simple sequential and parallel versions of a program with different problem sizes, and be able to describe the speed-ups achieved.",
+          "mastery": "Assessment",
+          "tier": null,
+          "xref": null
+        }
+      ]
+    },
+    {
+      "ku": "Cross-Layer Communications",
+      "tiers": [
+        {
+          "tier": "Core-Tier1",
+          "hours": "3"
+        }
+      ],
+      "topics": [
+        {
+          "topic": "Programming abstractions, interfaces, use of libraries",
+          "tier": null,
+          "subtopics": []
+        },
+        {
+          "topic": "Distinction between Application and OS services, Remote Procedure Call",
+          "tier": null,
+          "subtopics": []
+        },
+        {
+          "topic": "Application-Virtual Machine Interaction",
+          "tier": null,
+          "subtopics": []
+        },
+        {
+          "topic": "Reliability",
+          "tier": null,
+          "subtopics": []
+        }
+      ],
+      "hours": [],
+      "outcomes": [
+        {
+          "number": "1",
+          "outcome": "Describe how computing systems are constructed of layers upon layers, based on separation of concerns, with well-defined interfaces, hiding details of low layers from the higher layers.",
+          "mastery": "Familiarity",
+          "tier": null,
+          "xref": null
+        },
+        {
+          "number": "2",
+          "outcome": "Describe how hardware, VM, OS, and applications are additional layers of interpretation/processing.",
+          "mastery": "Familiarity",
+          "tier": null,
+          "xref": null
+        },
+        {
+          "number": "3",
+          "outcome": "Describe the mechanisms of how errors are detected, signaled back, and handled through the layers.",
+          "mastery": "Familiarity",
+          "tier": null,
+          "xref": null
+        },
+        {
+          "number": "4",
+          "outcome": "Construct a simple program using methods of layering, error detection and recovery, and reflection of error status across layers.",
+          "mastery": "Usage",
+          "tier": null,
+          "xref": null
+        },
+        {
+          "number": "5",
+          "outcome": "Find bugs in a layered program by using tools for program tracing, single stepping, and debugging.",
+          "mastery": "Usage",
+          "tier": null,
+          "xref": null
+        }
+      ]
+    },
+    {
+      "ku": "State and State Machines",
+      "tiers": [
+        {
+          "tier": "Core-Tier1",
+          "hours": "6"
+        }
+      ],
+      "topics": [
+        {
+          "topic": "Digital vs. Analog/Discrete vs. Continuous Systems",
+          "tier": null,
+          "subtopics": []
+        },
+        {
+          "topic": "Simple logic gates, logical expressions, Boolean logic simplification",
+          "tier": null,
+          "subtopics": []
+        },
+        {
+          "topic": "Clocks, State, Sequencing",
+          "tier": null,
+          "subtopics": []
+        },
+        {
+          "topic": "Combinational Logic, Sequential Logic, Registers, Memories",
+          "tier": null,
+          "subtopics": []
+        },
+        {
+          "topic": "Computers and Network Protocols as examples of state machines",
+          "tier": null,
+          "subtopics": []
+        }
+      ],
+      "hours": [],
+      "outcomes": [
+        {
+          "number": "1",
+          "outcome": "Describe computations as a system characyterized by a known set of configurations with transitions from one unique configuration (state) to another (state).",
+          "mastery": "Familiarity",
+          "tier": null,
+          "xref": null
+        },
+        {
+          "number": "2",
+          "outcome": "Describe the distinction between systems whose output is only a function of their input (Combinational) and those with memory/history (Sequential).",
+          "mastery": "Familiarity",
+          "tier": null,
+          "xref": null
+        },
+        {
+          "number": "3",
+          "outcome": "Describe a computer as a state machine that interprets machine instructions.",
+          "mastery": "Familiarity",
+          "tier": null,
+          "xref": null
+        },
+        {
+          "number": "4",
+          "outcome": "Explain how a program or network protocol can also be expressed as a state machine, and that alternative representations for the same computation can exist.",
+          "mastery": "Familiarity",
+          "tier": null,
+          "xref": null
+        },
+        {
+          "number": "5",
+          "outcome": "Develop state machine descriptions for simple problem statement solutions (e.g., traffic light sequencing, pattern recognizers).",
+          "mastery": "Usage",
+          "tier": null,
+          "xref": null
+        },
+        {
+          "number": "6",
+          "outcome": "Derive time-series behavior of a state machine from its state machine representation.",
+          "mastery": "Assessment",
+          "tier": null,
+          "xref": null
+        }
+      ]
+    },
+    {
+      "ku": "Parallelism",
+      "tiers": [
+        {
+          "tier": "Core-Tier1",
+          "hours": "3"
+        }
+      ],
+      "topics": [
+        {
+          "topic": "Sequential vs. parallel processing",
+          "tier": null,
+          "subtopics": []
+        },
+        {
+          "topic": "Parallel programming vs. concurrent programming",
+          "tier": null,
+          "subtopics": []
+        },
+        {
+          "topic": "Request parallelism vs. Task parallelism",
+          "tier": null,
+          "subtopics": []
+        },
+        {
+          "topic": "Client-Server/Web Services, Thread (Fork-Join), Pipelining",
+          "tier": null,
+          "subtopics": []
+        },
+        {
+          "topic": "Multicore architectures and hardware support for synchronization",
+          "tier": null,
+          "subtopics": []
+        }
+      ],
+      "hours": [],
+      "outcomes": [
+        {
+          "number": "1",
+          "outcome": "For a given program, distinguish between its sequential and parallel execution, and the performance implications thereof.",
+          "mastery": "Familiarity",
+          "tier": null,
+          "xref": null
+        },
+        {
+          "number": "2",
+          "outcome": "Demonstrate on an execution time line that parallelism events and operations can take place simultaneously (i.e., at the same time). Explain how work can be performed in less elapsed time if this can be exploited.",
+          "mastery": "Familiarity",
+          "tier": null,
+          "xref": null
+        },
+        {
+          "number": "3",
+          "outcome": "Explain other uses of parallelism, such as for reliability/redundancy of execution.",
+          "mastery": "Familiarity",
+          "tier": null,
+          "xref": null
+        },
+        {
+          "number": "4",
+          "outcome": "Define the differences between the concepts of Instruction Parallelism, Data Parallelism, Thread Parallelism/Multitasking, Task/Request Parallelism.",
+          "mastery": "Familiarity",
+          "tier": null,
+          "xref": null
+        },
+        {
+          "number": "5",
+          "outcome": "Write more than one parallel program (e.g., one simple parallel program in more than one parallel programming paradigm; a simple parallel program that manages shared resources through synchronization primitives; a simple parallel program that performs simultaneous operation on partitioned data through task parallel (e.g., parallel search terms; a simple parallel program that performs step-by-step pipeline processing through message passing).",
+          "mastery": "Usage",
+          "tier": null,
+          "xref": null
+        },
+        {
+          "number": "6",
+          "outcome": "Use performance tools to measure speed-up achieved by parallel programs in terms of both problem size and number of resources.",
+          "mastery": "Assessment",
+          "tier": null,
+          "xref": null
+        }
+      ]
+    },
+    {
+      "ku": "Evaluation",
+      "tiers": [
+        {
+          "tier": "Core-Tier1",
+          "hours": "3"
+        }
+      ],
+      "topics": [
+        {
+          "topic": "Performance figures of merit",
+          "tier": null,
+          "subtopics": []
+        },
+        {
+          "topic": "Workloads and representative benchmarks, and methods of collecting and analyzing performance figures of merit",
+          "tier": null,
+          "subtopics": []
+        },
+        {
+          "topic": "CPI (Cycles per Instruction) equation as tool for understanding tradeoffs in the design of instruction sets, processor pipelines, and memory system organizations.",
+          "tier": null,
+          "subtopics": []
+        },
+        {
+          "topic": "Amdahl\u2019s Law: the part of the computation that cannot be sped up limits the effect of the parts that can",
+          "tier": null,
+          "subtopics": []
+        }
+      ],
+      "hours": [],
+      "outcomes": [
+        {
+          "number": "1",
+          "outcome": "Explain how the components of system architecture contribute to improving its performance.",
+          "mastery": "Familiarity",
+          "tier": null,
+          "xref": null
+        },
+        {
+          "number": "2",
+          "outcome": "Describe Amdahl\u2019s law and discuss its limitations.",
+          "mastery": "Familiarity",
+          "tier": null,
+          "xref": null
+        },
+        {
+          "number": "3",
+          "outcome": "Design and conduct a performance-oriented experiment.",
+          "mastery": "Usage",
+          "tier": null,
+          "xref": null
+        },
+        {
+          "number": "4",
+          "outcome": "Use software tools to profile and measure program performance.",
+          "mastery": "Assessment",
+          "tier": null,
+          "xref": null
+        }
+      ]
+    },
+    {
+      "ku": "Resource Allocation and Scheduling",
+      "tiers": [
+        {
+          "tier": "Core-Tier2",
+          "hours": "2"
+        }
+      ],
+      "topics": [
+        {
+          "topic": "Kinds of resources (e.g., processor share, memory, disk, net bandwidth)",
+          "tier": null,
+          "subtopics": []
+        },
+        {
+          "topic": "Kinds of scheduling (e.g., first-come, priority)",
+          "tier": null,
+          "subtopics": []
+        },
+        {
+          "topic": "Advantages of fair scheduling, preemptive scheduling",
+          "tier": null,
+          "subtopics": []
+        }
+      ],
+      "hours": [],
+      "outcomes": [
+        {
+          "number": "1",
+          "outcome": "Define how finite computer resources (e.g., processor share, memory, storage and network bandwidth) are managed by their careful allocation to existing entities.",
+          "mastery": "Familiarity",
+          "tier": null,
+          "xref": null
+        },
+        {
+          "number": "2",
+          "outcome": "Describe the scheduling algorithms by which resources are allocated to competing entities, and the figures of merit by which these algorithms are evaluated, such as fairness.",
+          "mastery": "Familiarity",
+          "tier": null,
+          "xref": null
+        },
+        {
+          "number": "3",
+          "outcome": "Implement simple schedule algorithms.",
+          "mastery": "Usage",
+          "tier": null,
+          "xref": null
+        },
+        {
+          "number": "4",
+          "outcome": "Use figures of merit of alternative scheduler implementations.",
+          "mastery": "Assessment",
+          "tier": null,
+          "xref": null
+        }
+      ]
+    },
+    {
+      "ku": "Proximity",
+      "tiers": [
+        {
+          "tier": "Core-Tier2",
+          "hours": "3"
+        }
+      ],
+      "topics": [
+        {
+          "topic": "Speed of light and computers (one foot per nanosecond vs. one GHz clocks)",
+          "tier": null,
+          "subtopics": []
+        },
+        {
+          "topic": "Latencies in computer systems: memory vs. disk latencies vs. across the network memory",
+          "tier": null,
+          "subtopics": []
+        },
+        {
+          "topic": "Caches and the effects of spatial and temporal locality on performance in processors and systems",
+          "tier": null,
+          "subtopics": []
+        },
+        {
+          "topic": "Caches and cache coherency in databases, operating systems, distributed systems, and computer architecture",
+          "tier": null,
+          "subtopics": []
+        },
+        {
+          "topic": "Introduction into the processor memory hierarchy and the formula for average memory access time",
+          "tier": null,
+          "subtopics": []
+        }
+      ],
+      "hours": [],
+      "outcomes": [
+        {
+          "number": "1",
+          "outcome": "Explain the importance of locality in determining performance.",
+          "mastery": "Familiarity",
+          "tier": null,
+          "xref": null
+        },
+        {
+          "number": "2",
+          "outcome": "Describe why things that are close in space take less time to access.",
+          "mastery": "Familiarity",
+          "tier": null,
+          "xref": null
+        },
+        {
+          "number": "3",
+          "outcome": "Calculate average memory access time and describe the tradeoffs in memory hierarchy performance in terms of capacity, miss/hit rate, and access time.",
+          "mastery": "Assessment",
+          "tier": null,
+          "xref": null
+        }
+      ]
+    },
+    {
+      "ku": "Virtualization and Isolation",
+      "tiers": [
+        {
+          "tier": "Core-Tier2",
+          "hours": "2"
+        }
+      ],
+      "topics": [
+        {
+          "topic": "Rationale for protection and predictable performance",
+          "tier": null,
+          "subtopics": []
+        },
+        {
+          "topic": "Levels of indirection, illustrated by virtual memory for managing physical memory resources",
+          "tier": null,
+          "subtopics": []
+        },
+        {
+          "topic": "Methods for implementing virtual memory and virtual machines",
+          "tier": null,
+          "subtopics": []
+        }
+      ],
+      "hours": [],
+      "outcomes": [
+        {
+          "number": "1",
+          "outcome": "Explain why it is important to isolate and protect the execution of individual programs and environments that share common underlying resources.",
+          "mastery": "Familiarity",
+          "tier": null,
+          "xref": null
+        },
+        {
+          "number": "2",
+          "outcome": "Describe how the concept of indirection can create the illusion of a dedicated machine and its resources even when physically shared among multiple programs and environments.",
+          "mastery": "Familiarity",
+          "tier": null,
+          "xref": null
+        },
+        {
+          "number": "3",
+          "outcome": "Measure the performance of two application instances running on separate virtual machines, and determine the effect of performance isolation.",
+          "mastery": "Assessment",
+          "tier": null,
+          "xref": null
+        }
+      ]
+    },
+    {
+      "ku": "Reliability through Redundancy",
+      "tiers": [
+        {
+          "tier": "Core-Tier2",
+          "hours": "2"
+        }
+      ],
+      "topics": [
+        {
+          "topic": "Distinction between bugs and faults",
+          "tier": null,
+          "subtopics": []
+        },
+        {
+          "topic": "Redundancy through check and retry",
+          "tier": null,
+          "subtopics": []
+        },
+        {
+          "topic": "Redundancy through redundant encoding (error correcting codes, CRC, FEC)",
+          "tier": null,
+          "subtopics": []
+        },
+        {
+          "topic": "Duplication/mirroring/replicas",
+          "tier": null,
+          "subtopics": []
+        },
+        {
+          "topic": "Other approaches to fault tolerance and availability",
+          "tier": null,
+          "subtopics": []
+        }
+      ],
+      "hours": [],
+      "outcomes": [
+        {
+          "number": "1",
+          "outcome": "Explain the distinction between program errors, system errors, and hardware faults (e.g., bad memory) and exceptions (e.g., attempt to divide by zero).",
+          "mastery": "Familiarity",
+          "tier": null,
+          "xref": null
+        },
+        {
+          "number": "2",
+          "outcome": "Articulate the distinction between detecting, handling, and recovering from faults, and the methods for their implementation.",
+          "mastery": "Familiarity",
+          "tier": null,
+          "xref": null
+        },
+        {
+          "number": "3",
+          "outcome": "Describe the role of error correcting codes in providing error checking and correction techniques in memories, storage, and networks.",
+          "mastery": "Familiarity",
+          "tier": null,
+          "xref": null
+        },
+        {
+          "number": "4",
+          "outcome": "Apply simple algorithms for exploiting redundant information for the purposes of data correction.",
+          "mastery": "Usage",
+          "tier": null,
+          "xref": null
+        },
+        {
+          "number": "5",
+          "outcome": "Compare different error detection and correction methods for their data overhead, implementation complexity, and relative execution time for encoding, detecting, and correcting errors.",
+          "mastery": "Assessment",
+          "tier": null,
+          "xref": null
+        }
+      ]
+    },
+    {
+      "ku": "Quantitative Evaluation",
+      "tiers": {
+        "tier": "Elective",
+        "hours": null
+      },
+      "topics": [
+        {
+          "topic": "Analytical tools to guide quantitative evaluation",
+          "tier": null,
+          "subtopics": []
+        },
+        {
+          "topic": "Order of magnitude analysis (Big-Oh notation)",
+          "tier": null,
+          "subtopics": []
+        },
+        {
+          "topic": "Analysis of slow and fast paths of a system",
+          "tier": null,
+          "subtopics": []
+        },
+        {
+          "topic": "Events on their effect on performance (e.g., instruction stalls, cache misses, page faults)",
+          "tier": null,
+          "subtopics": []
+        },
+        {
+          "topic": "Understanding layered systems, workloads, and platforms, their implications for performance, and the challenges they represent for evaluation",
+          "tier": null,
+          "subtopics": []
+        },
+        {
+          "topic": "Microbenchmarking pitfalls",
+          "tier": null,
+          "subtopics": []
+        }
+      ],
+      "hours": [],
+      "outcomes": [
+        {
+          "number": "1",
+          "outcome": "Explain the circumstances in which a given figure of system performance metric is useful.",
+          "mastery": "Familiarity",
+          "tier": null,
+          "xref": null
+        },
+        {
+          "number": "2",
+          "outcome": "Explain the inadequacies of benchmarks as a measure of system performance.",
+          "mastery": "Familiarity",
+          "tier": null,
+          "xref": null
+        },
+        {
+          "number": "3",
+          "outcome": "Use limit studies or simple calculations to produce order-of-magnitude estimates for a given performance metric in a given context.",
+          "mastery": "Usage",
+          "tier": null,
+          "xref": null
+        },
+        {
+          "number": "4",
+          "outcome": "Conduct a performance experiment on a layered system to determine the effect of a system parameter on figure of system performance.",
+          "mastery": "Assessment",
+          "tier": null,
+          "xref": null
+        }
+      ]
+    }
+  ],
+  "references": []
+}
