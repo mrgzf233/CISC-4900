@@ -48,4 +48,5 @@ software security topics
 
 Task 1: Familiarize with the processing pipeline of parsing a knowledge area. The input to the pipeline is the CS2013 pdf file, and the output is a JSON file for the selected knowledge area.
 
-Task 2: To develop a Python program that takes a JSON file as input. The program of the output is a single JSON object that contains all the KAs. This program should build upon the existing programs.
+Task 2: To develop a Python program that takes a JSON file as input. The program of the output is a single JSON object that contains all the KAs. This program should build upon the existing programs. 
+My approach to it is to make 2 lists, one being the final list where the output will be and one where I manually input all the json files. I will then use a forloop to iterate throught them. 
