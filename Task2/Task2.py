@@ -14,15 +14,27 @@ This is the format.
 ...
 ]
 """
-
+# Option + Command + L for reformat on mac
 import json
 
-# only reading in one json file, need to read in all the json files
-with open("cs2013_web_final_sf.json", "r") as f:  # open as file object?
-    data = json.load(f)
 
-print(data)
+# Input list for the json files
+ka_list = [
+    "cs2013_web_final_sf.json",
+    "cs2013_web_final_pl.json",
+    # manually add the rest of the json files here
+]
 
-# putting all the json files that were read in into one json file
-with open("cs2013_web_final_sf.json", "w") as f:
-    json.dump(data, f)
+all_dict = {
+    "curriculum": "cs2013",
+    "knowledge-areas": []
+}
+
+for json_file in ka_list:
+    with open(json_file, "r") as f:
+        data = json.load(f)
+    all_dict["knowledge-areas"].append(data)  # .append vs .extend
+
+    # Dictionary and List, dumps everything into the new JSON file.
+with open("combined_ka.json", "w") as f:
+    json.dump(all_dict, f, indent=2)

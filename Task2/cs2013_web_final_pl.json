@@ -1,0 +1,1335 @@
+{
+  "ka": "Programming Languages",
+  "short_ka": "PL",
+  "units": [
+    {
+      "ku": "Object-Oriented Programming",
+      "tiers": [
+        {
+          "tier": "Core-Tier1",
+          "hours": "4"
+        },
+        {
+          "tier": "Core-Tier2",
+          "hours": "6"
+        }
+      ],
+      "topics": [
+        {
+          "topic": "Object-oriented design",
+          "tier": "Core-Tier1",
+          "subtopics": [
+            "Decomposition into objects carrying state and having behavior",
+            "Class-hierarchy design for modeling"
+          ]
+        },
+        {
+          "topic": "Definition of classes: fields, methods, and constructors",
+          "tier": "Core-Tier1",
+          "subtopics": []
+        },
+        {
+          "topic": "Subclasses, inheritance, and method overriding",
+          "tier": "Core-Tier1",
+          "subtopics": []
+        },
+        {
+          "topic": "Dynamic dispatch: definition of method-call",
+          "tier": "Core-Tier1",
+          "subtopics": []
+        },
+        {
+          "topic": "Subtyping (cross-reference PL/Type Systems)",
+          "tier": "Core-Tier2",
+          "subtopics": [
+            "Subtype polymorphism; implicit upcasts in typed languages",
+            "Notion of behavioral replacement: subtypes acting like supertypes",
+            "Relationship between subtyping and inheritance"
+          ]
+        },
+        {
+          "topic": "Object-oriented idioms for encapsulation",
+          "tier": "Core-Tier2",
+          "subtopics": [
+            "Privacy and visibility of class members",
+            "Interfaces revealing only method signatures",
+            "Abstract base classes"
+          ]
+        },
+        {
+          "topic": "Using collection classes, iterators, and other common library components",
+          "tier": "Core-Tier2",
+          "subtopics": []
+        }
+      ],
+      "hours": [],
+      "outcomes": [
+        {
+          "number": "1",
+          "outcome": "Design and implement a class.",
+          "mastery": "Usage",
+          "tier": "Core-Tier1",
+          "xref": null
+        },
+        {
+          "number": "2",
+          "outcome": "Use subclassing to design simple class hierarchies that allow code to be reused for distinct subclasses.",
+          "mastery": "Usage",
+          "tier": "Core-Tier1",
+          "xref": null
+        },
+        {
+          "number": "3",
+          "outcome": "Correctly reason about control flow in a program using dynamic dispatch.",
+          "mastery": "Usage",
+          "tier": "Core-Tier1",
+          "xref": null
+        },
+        {
+          "number": "4",
+          "outcome": "Compare and contrast (1) the procedural/functional approach (defining a function for each operation with the function body providing a case for each data variant) and (2) the object-oriented approach (defining a class for each data variant with the class definition providing a method for each operation). Understand both as defining a matrix of operations and variants.",
+          "mastery": "Assessment",
+          "tier": "Core-Tier1",
+          "xref": "This outcome also appears in PL/Functional Programming."
+        },
+        {
+          "number": "5",
+          "outcome": "Explain the relationship between object-oriented inheritance (code-sharing and overriding) and subtyping (the idea of a subtype being usable in a context that expects the supertype).",
+          "mastery": "Familiarity",
+          "tier": "Core-Tier2",
+          "xref": null
+        },
+        {
+          "number": "6",
+          "outcome": "Use object-oriented encapsulation mechanisms such as interfaces and private members.",
+          "mastery": "Usage",
+          "tier": "Core-Tier2",
+          "xref": null
+        },
+        {
+          "number": "7",
+          "outcome": "Define and use iterators and other operations on aggregates, including operations that take functions as arguments, in multiple programming languages, selecting the most natural idioms for each language.",
+          "mastery": "Usage",
+          "tier": "Core-Tier2",
+          "xref": "This outcome also appears in PL/Functional Programming."
+        }
+      ]
+    },
+    {
+      "ku": "Functional Programming",
+      "tiers": [
+        {
+          "tier": "Core-Tier1",
+          "hours": "3"
+        },
+        {
+          "tier": "Core-Tier2",
+          "hours": "4"
+        }
+      ],
+      "topics": [
+        {
+          "topic": "Effect-free programming",
+          "tier": "Core-Tier1",
+          "subtopics": [
+            "Function calls have no side effects, facilitating compositional reasoning",
+            "Variables are immutable, preventing unexpected changes to program data by other code",
+            "Data can be freely aliased or copied without introducing unintended effects from mutation"
+          ]
+        },
+        {
+          "topic": "Processing structured data (e.g., trees) via functions with cases for each data variant",
+          "tier": "Core-Tier1",
+          "subtopics": [
+            "Associated language constructs such as discriminated unions and pattern-matching over them",
+            "Functions defined over compound data in terms of functions applied to the constituent pieces"
+          ]
+        },
+        {
+          "topic": "First-class functions (taking, returning, and storing functions)",
+          "tier": "Core-Tier1",
+          "subtopics": []
+        },
+        {
+          "topic": "Function closures (functions using variables in the enclosing lexical environment)",
+          "tier": "Core-Tier2",
+          "subtopics": [
+            "Basic meaning and definition -- creating closures at run-time by capturing the environment",
+            "Canonical idioms: call-backs, arguments to iterators, reusable code via function arguments",
+            "Using a closure to encapsulate data in its environment",
+            "Currying and partial application"
+          ]
+        },
+        {
+          "topic": "Defining higher-order operations on aggregates, especially map, reduce/fold, and filter",
+          "tier": "Core-Tier2",
+          "subtopics": []
+        }
+      ],
+      "hours": [],
+      "outcomes": [
+        {
+          "number": "1",
+          "outcome": "Write basic algorithms that avoid assigning to mutable state or considering reference equality.",
+          "mastery": "Usage",
+          "tier": "Core-Tier1",
+          "xref": null
+        },
+        {
+          "number": "2",
+          "outcome": "Write useful functions that take and return other functions.",
+          "mastery": "Usage",
+          "tier": "Core-Tier1",
+          "xref": null
+        },
+        {
+          "number": "3",
+          "outcome": "Compare and contrast (1) the procedural/functional approach (defining a function for each operation with the function body providing a case for each data variant) and (2) the object-oriented approach (defining a class for each data variant with the class definition providing a method for each operation). Understand both as defining a matrix of operations and variants.",
+          "mastery": "Assessment",
+          "tier": "Core-Tier1",
+          "xref": "This outcome also appears in PL/Object-Oriented Programming."
+        },
+        {
+          "number": "4",
+          "outcome": "Correctly reason about variables and lexical scope in a program using function closures.",
+          "mastery": "Usage",
+          "tier": "Core-Tier2",
+          "xref": null
+        },
+        {
+          "number": "5",
+          "outcome": "Use functional encapsulation mechanisms such as closures and modular interfaces.",
+          "mastery": "Usage",
+          "tier": "Core-Tier2",
+          "xref": null
+        },
+        {
+          "number": "6",
+          "outcome": "Define and use iterators and other operations on aggregates, including operations that take functions as arguments, in multiple programming languages, selecting the most natural idioms for each language.",
+          "mastery": "Usage",
+          "tier": "Core-Tier2",
+          "xref": "This outcome also appears in PL/Object-Oriented Programming."
+        }
+      ]
+    },
+    {
+      "ku": "Event-Driven and Reactive Programming",
+      "tiers": [
+        {
+          "tier": "Core-Tier2",
+          "hours": "2"
+        }
+      ],
+      "topics": [
+        {
+          "topic": "Events and event handlers",
+          "tier": null,
+          "subtopics": []
+        },
+        {
+          "topic": "Canonical uses such as GUIs, mobile devices, robots, servers",
+          "tier": null,
+          "subtopics": []
+        },
+        {
+          "topic": "Using a reactive framework",
+          "tier": null,
+          "subtopics": [
+            "Defining event handlers/listeners",
+            "Main event loop not under event-handler-writer\u2019s control"
+          ]
+        },
+        {
+          "topic": "Externally-generated events and program-generated events",
+          "tier": null,
+          "subtopics": []
+        },
+        {
+          "topic": "Separation of model, view, and controller",
+          "tier": null,
+          "subtopics": []
+        }
+      ],
+      "hours": [],
+      "outcomes": [
+        {
+          "number": "1",
+          "outcome": "Write event handlers for use in reactive systems, such as GUIs.",
+          "mastery": "Usage",
+          "tier": null,
+          "xref": null
+        },
+        {
+          "number": "2",
+          "outcome": "Explain why an event-driven programming style is natural in domains where programs react to external events.",
+          "mastery": "Familiarity",
+          "tier": null,
+          "xref": null
+        },
+        {
+          "number": "3",
+          "outcome": "Describe an interactive system in terms of a model, a view, and a controller.",
+          "mastery": "Familiarity",
+          "tier": null,
+          "xref": null
+        }
+      ]
+    },
+    {
+      "ku": "Basic Type Systems",
+      "tiers": [
+        {
+          "tier": "Core-Tier1",
+          "hours": "1"
+        },
+        {
+          "tier": "Core-Tier2",
+          "hours": "4"
+        }
+      ],
+      "topics": [
+        {
+          "topic": "A type as a set of values together with a set of operations",
+          "tier": "Core-Tier1",
+          "subtopics": [
+            "Primitive types (e.g., numbers, Booleans)",
+            "Compound types built from other types (e.g., records, unions, arrays, lists, functions, references)"
+          ]
+        },
+        {
+          "topic": "Association of types to variables, arguments, results, and fields",
+          "tier": "Core-Tier1",
+          "subtopics": []
+        },
+        {
+          "topic": "Type safety and errors caused by using values inconsistently given their intended types",
+          "tier": "Core-Tier1",
+          "subtopics": []
+        },
+        {
+          "topic": "Goals and limitations of static typing",
+          "tier": "Core-Tier1",
+          "subtopics": [
+            "Eliminating some classes of errors without running the program",
+            "Undecidability means static analysis must conservatively approximate program behavior"
+          ]
+        },
+        {
+          "topic": "Generic types (parametric polymorphism)",
+          "tier": "Core-Tier2",
+          "subtopics": [
+            "Definition",
+            "Use for generic libraries such as collections",
+            "Comparison with ad hoc polymorphism (overloading) and subtype polymorphism"
+          ]
+        },
+        {
+          "topic": "Complementary benefits of static and dynamic typing",
+          "tier": "Core-Tier2",
+          "subtopics": [
+            "Errors early vs. errors late/avoided",
+            "Enforce invariants during code development and code maintenance vs. postpone typing decisions while prototyping and conveniently allow flexible coding patterns such as heterogeneous collections",
+            "Avoid misuse of code vs. allow more code reuse",
+            "Detect incomplete programs vs. allow incomplete programs to run"
+          ]
+        }
+      ],
+      "hours": [],
+      "outcomes": [
+        {
+          "number": "1",
+          "outcome": "For both a primitive and a compound type, informally describe the values that have that type.",
+          "mastery": "Familiarity",
+          "tier": "Core-Tier1",
+          "xref": null
+        },
+        {
+          "number": "2",
+          "outcome": "For a language with a static type system, describe the operations that are forbidden statically, such as passing the wrong type of value to a function or method.",
+          "mastery": "Familiarity",
+          "tier": "Core-Tier1",
+          "xref": null
+        },
+        {
+          "number": "3",
+          "outcome": "Describe examples of program errors detected by a type system.",
+          "mastery": "Familiarity",
+          "tier": "Core-Tier1",
+          "xref": null
+        },
+        {
+          "number": "4",
+          "outcome": "For multiple programming languages, identify program properties checked statically and program properties checked dynamically.",
+          "mastery": "Usage",
+          "tier": "Core-Tier1",
+          "xref": null
+        },
+        {
+          "number": "5",
+          "outcome": "Give an example program that does not type-check in a particular language and yet would have no error if run.",
+          "mastery": "Familiarity",
+          "tier": "Core-Tier1",
+          "xref": null
+        },
+        {
+          "number": "6",
+          "outcome": "Use types and type-error messages to write and debug programs.",
+          "mastery": "Usage",
+          "tier": "Core-Tier1",
+          "xref": null
+        },
+        {
+          "number": "7",
+          "outcome": "Explain how typing rules define the set of operations that are legal for a type.",
+          "mastery": "Familiarity",
+          "tier": "Core-Tier2",
+          "xref": null
+        },
+        {
+          "number": "8",
+          "outcome": "Write down the type rules governing the use of a particular compound type.",
+          "mastery": "Usage",
+          "tier": "Core-Tier2",
+          "xref": null
+        },
+        {
+          "number": "9",
+          "outcome": "Explain why undecidability requires type systems to conservatively approximate program behavior.",
+          "mastery": "Familiarity",
+          "tier": "Core-Tier2",
+          "xref": null
+        },
+        {
+          "number": "10",
+          "outcome": "Define and use program pieces (such as functions, classes, methods) that use generic types, including for collections.",
+          "mastery": "Usage",
+          "tier": "Core-Tier2",
+          "xref": null
+        },
+        {
+          "number": "11",
+          "outcome": "Discuss the differences among generics, subtyping, and overloading.",
+          "mastery": "Familiarity",
+          "tier": "Core-Tier2",
+          "xref": null
+        },
+        {
+          "number": "12",
+          "outcome": "Explain multiple benefits and limitations of static typing in writing, maintaining, and debugging software.",
+          "mastery": "Familiarity",
+          "tier": "Core-Tier2",
+          "xref": null
+        }
+      ]
+    },
+    {
+      "ku": "Program Representation",
+      "tiers": [
+        {
+          "tier": "Core-Tier2",
+          "hours": "1"
+        }
+      ],
+      "topics": [
+        {
+          "topic": "Programs that take (other) programs as input such as interpreters, compilers, type-checkers, documentation generators",
+          "tier": null,
+          "subtopics": []
+        },
+        {
+          "topic": "Abstract syntax trees; contrast with concrete syntax",
+          "tier": null,
+          "subtopics": []
+        },
+        {
+          "topic": "Data structures to represent code for execution, translation, or transmission",
+          "tier": null,
+          "subtopics": []
+        }
+      ],
+      "hours": [],
+      "outcomes": [
+        {
+          "number": "1",
+          "outcome": "Explain how programs that process other programs treat the other programs as their input data.",
+          "mastery": "Familiarity",
+          "tier": null,
+          "xref": null
+        },
+        {
+          "number": "2",
+          "outcome": "Describe an abstract syntax tree for a small language.",
+          "mastery": "Usage",
+          "tier": null,
+          "xref": null
+        },
+        {
+          "number": "3",
+          "outcome": "Describe the benefits of having program representations other than strings of source code.",
+          "mastery": "Familiarity",
+          "tier": null,
+          "xref": null
+        },
+        {
+          "number": "4",
+          "outcome": "Write a program to process some representation of code for some purpose, such as an interpreter, an expression optimizer, or a documentation generator.",
+          "mastery": "Usage",
+          "tier": null,
+          "xref": null
+        }
+      ]
+    },
+    {
+      "ku": "Language Translation and Execution",
+      "tiers": [
+        {
+          "tier": "Core-Tier2",
+          "hours": "3"
+        }
+      ],
+      "topics": [
+        {
+          "topic": "Interpretation vs. compilation to native code vs. compilation to portable intermediate representation",
+          "tier": null,
+          "subtopics": []
+        },
+        {
+          "topic": "Language translation pipeline: parsing, optional type-checking, translation, linking, execution",
+          "tier": null,
+          "subtopics": [
+            "Execution as native code or within a virtual machine",
+            "Alternatives like dynamic loading and dynamic (or \u201cjust-in-time\u201d) code generation"
+          ]
+        },
+        {
+          "topic": "Run-time representation of core language constructs such as objects (method tables) and first-class functions (closures)",
+          "tier": null,
+          "subtopics": []
+        },
+        {
+          "topic": "Run-time layout of memory: call-stack, heap, static data",
+          "tier": null,
+          "subtopics": [
+            "Implementing loops, recursion, and tail calls"
+          ]
+        },
+        {
+          "topic": "Memory management",
+          "tier": null,
+          "subtopics": [
+            "Manual memory management: allocating, de-allocating, and reusing heap memory",
+            "Automated memory management: garbage collection as an automated technique using the notion",
+            "f reachability"
+          ]
+        }
+      ],
+      "hours": [],
+      "outcomes": [
+        {
+          "number": "1",
+          "outcome": "Distinguish a language definition (what constructs mean) from a particular language implementation (compiler vs. interpreter, run-time representation of data objects, etc.).",
+          "mastery": "Familiarity",
+          "tier": null,
+          "xref": null
+        },
+        {
+          "number": "2",
+          "outcome": "Distinguish syntax and parsing from semantics and evaluation.",
+          "mastery": "Familiarity",
+          "tier": null,
+          "xref": null
+        },
+        {
+          "number": "3",
+          "outcome": "Sketch a low-level run-time representation of core language constructs, such as objects or closures.",
+          "mastery": "Familiarity",
+          "tier": null,
+          "xref": null
+        },
+        {
+          "number": "4",
+          "outcome": "Explain how programming language implementations typically organize memory into global data, text, heap, and stack sections and how features such as recursion and memory management map to this memory model.",
+          "mastery": "Familiarity",
+          "tier": null,
+          "xref": null
+        },
+        {
+          "number": "5",
+          "outcome": "Identify and fix memory leaks and dangling-pointer dereferences.",
+          "mastery": "Usage",
+          "tier": null,
+          "xref": null
+        },
+        {
+          "number": "6",
+          "outcome": "Discuss the benefits and limitations of garbage collection, including the notion of reachability.",
+          "mastery": "Familiarity",
+          "tier": null,
+          "xref": null
+        }
+      ]
+    },
+    {
+      "ku": "Syntax Analysis",
+      "tiers": {
+        "tier": "Elective",
+        "hours": null
+      },
+      "topics": [
+        {
+          "topic": "Scanning (lexical analysis) using regular expressions",
+          "tier": null,
+          "subtopics": []
+        },
+        {
+          "topic": "Parsing strategies including top-down (e.g., recursive descent, Earley parsing, or LL) and bottom-up (e.g., backtracking or LR) techniques; role of context-free grammars",
+          "tier": null,
+          "subtopics": []
+        },
+        {
+          "topic": "Generating scanners and parsers from declarative specifications",
+          "tier": null,
+          "subtopics": []
+        }
+      ],
+      "hours": [],
+      "outcomes": [
+        {
+          "number": "1",
+          "outcome": "Use formal grammars to specify the syntax of languages.",
+          "mastery": "Usage",
+          "tier": null,
+          "xref": null
+        },
+        {
+          "number": "2",
+          "outcome": "Use declarative tools to generate parsers and scanners.",
+          "mastery": "Usage",
+          "tier": null,
+          "xref": null
+        },
+        {
+          "number": "3",
+          "outcome": "Identify key issues in syntax definitions: ambiguity, associativity, precedence.",
+          "mastery": "Familiarity",
+          "tier": null,
+          "xref": null
+        }
+      ]
+    },
+    {
+      "ku": "Compiler Semantic Analysis",
+      "tiers": {
+        "tier": "Elective",
+        "hours": null
+      },
+      "topics": [
+        {
+          "topic": "High-level program representations such as abstract syntax trees",
+          "tier": null,
+          "subtopics": []
+        },
+        {
+          "topic": "Scope and binding resolution",
+          "tier": null,
+          "subtopics": []
+        },
+        {
+          "topic": "Type checking",
+          "tier": null,
+          "subtopics": []
+        },
+        {
+          "topic": "Declarative specifications such as attribute grammars",
+          "tier": null,
+          "subtopics": []
+        }
+      ],
+      "hours": [],
+      "outcomes": [
+        {
+          "number": "1",
+          "outcome": "Implement context-sensitive, source-level static analyses such as type-checkers or resolving identifiers to identify their binding occurrences.",
+          "mastery": "Usage",
+          "tier": null,
+          "xref": null
+        },
+        {
+          "number": "2",
+          "outcome": "Describe semantic analyses using an attribute grammar.",
+          "mastery": "Usage",
+          "tier": null,
+          "xref": null
+        }
+      ]
+    },
+    {
+      "ku": "Code Generation",
+      "tiers": {
+        "tier": "Elective",
+        "hours": null
+      },
+      "topics": [
+        {
+          "topic": "Procedure calls and method dispatching",
+          "tier": null,
+          "subtopics": []
+        },
+        {
+          "topic": "Separate compilation; linking",
+          "tier": null,
+          "subtopics": []
+        },
+        {
+          "topic": "Instruction selection",
+          "tier": null,
+          "subtopics": []
+        },
+        {
+          "topic": "Instruction scheduling",
+          "tier": null,
+          "subtopics": []
+        },
+        {
+          "topic": "Register allocation",
+          "tier": null,
+          "subtopics": []
+        },
+        {
+          "topic": "Peephole optimization",
+          "tier": null,
+          "subtopics": []
+        }
+      ],
+      "hours": [],
+      "outcomes": [
+        {
+          "number": "1",
+          "outcome": "Identify all essential steps for automatically converting source code into assembly or other low-level languages.",
+          "mastery": "Familiarity",
+          "tier": null,
+          "xref": null
+        },
+        {
+          "number": "2",
+          "outcome": "Generate the low-level code for calling functions/methods in modern languages.",
+          "mastery": "Usage",
+          "tier": null,
+          "xref": null
+        },
+        {
+          "number": "3",
+          "outcome": "Discuss why separate compilation requires uniform calling conventions.",
+          "mastery": "Familiarity",
+          "tier": null,
+          "xref": null
+        },
+        {
+          "number": "4",
+          "outcome": "Discuss why separate compilation limits optimization because of unknown effects of calls.",
+          "mastery": "Familiarity",
+          "tier": null,
+          "xref": null
+        },
+        {
+          "number": "5",
+          "outcome": "Discuss opportunities for optimization introduced by naive translation and approaches for achieving optimization, such as instruction selection, instruction scheduling, register allocation, and peephole optimization.",
+          "mastery": "Familiarity",
+          "tier": null,
+          "xref": null
+        }
+      ]
+    },
+    {
+      "ku": "Runtime Systems",
+      "tiers": {
+        "tier": "Elective",
+        "hours": null
+      },
+      "topics": [
+        {
+          "topic": "Dynamic memory management approaches and techniques: malloc/free, garbage collection (mark-sweep, copying, reference counting), regions (also known as arenas or zones)",
+          "tier": null,
+          "subtopics": []
+        },
+        {
+          "topic": "Data layout for objects and activation records",
+          "tier": null,
+          "subtopics": []
+        },
+        {
+          "topic": "Just-in-time compilation and dynamic recompilation",
+          "tier": null,
+          "subtopics": []
+        },
+        {
+          "topic": "Other common features of virtual machines, such as class loading, threads, and security.",
+          "tier": null,
+          "subtopics": []
+        }
+      ],
+      "hours": [],
+      "outcomes": [
+        {
+          "number": "1",
+          "outcome": "Compare the benefits of different memory-management schemes, using concepts such as fragmentation, locality, and memory overhead.",
+          "mastery": "Familiarity",
+          "tier": null,
+          "xref": null
+        },
+        {
+          "number": "2",
+          "outcome": "Discuss benefits and limitations of automatic memory management.",
+          "mastery": "Familiarity",
+          "tier": null,
+          "xref": null
+        },
+        {
+          "number": "3",
+          "outcome": "Explain the use of metadata in run-time representations of objects and activation records, such as class pointers, array lengths, return addresses, and frame pointers.",
+          "mastery": "Familiarity",
+          "tier": null,
+          "xref": null
+        },
+        {
+          "number": "4",
+          "outcome": "Discuss advantages, disadvantages, and difficulties of just-in-time and dynamic recompilation.",
+          "mastery": "Familiarity",
+          "tier": null,
+          "xref": null
+        },
+        {
+          "number": "5",
+          "outcome": "Identify the services provided by modern language run-time systems.",
+          "mastery": "Familiarity",
+          "tier": null,
+          "xref": null
+        }
+      ]
+    },
+    {
+      "ku": "Static Analysis",
+      "tiers": {
+        "tier": "Elective",
+        "hours": null
+      },
+      "topics": [
+        {
+          "topic": "Relevant program representations, such as basic blocks, control-flow graphs, def-use chains, and static single assignment",
+          "tier": null,
+          "subtopics": []
+        },
+        {
+          "topic": "Undecidability and consequences for program analysis",
+          "tier": null,
+          "subtopics": []
+        },
+        {
+          "topic": "Flow-insensitive analyses, such as type-checking and scalable pointer and alias analyses",
+          "tier": null,
+          "subtopics": []
+        },
+        {
+          "topic": "Flow-sensitive analyses, such as forward and backward dataflow analyses",
+          "tier": null,
+          "subtopics": []
+        },
+        {
+          "topic": "Path-sensitive analyses, such as software model checking",
+          "tier": null,
+          "subtopics": []
+        },
+        {
+          "topic": "Tools and frameworks for defining analyses",
+          "tier": null,
+          "subtopics": []
+        },
+        {
+          "topic": "Role of static analysis in program optimization",
+          "tier": null,
+          "subtopics": []
+        },
+        {
+          "topic": "Role of static analysis in (partial) verification and bug-finding",
+          "tier": null,
+          "subtopics": []
+        }
+      ],
+      "hours": [],
+      "outcomes": [
+        {
+          "number": "1",
+          "outcome": "Define useful static analyses in terms of a conceptual framework such as dataflow analysis.",
+          "mastery": "Usage",
+          "tier": null,
+          "xref": null
+        },
+        {
+          "number": "2",
+          "outcome": "Explain why non-trivial sound static analyses must be approximate.",
+          "mastery": "Familiarity",
+          "tier": null,
+          "xref": null
+        },
+        {
+          "number": "3",
+          "outcome": "Communicate why an analysis is correct (sound and terminating).",
+          "mastery": "Usage",
+          "tier": null,
+          "xref": null
+        },
+        {
+          "number": "4",
+          "outcome": "Distinguish \u201cmay\u201d and \u201cmust\u201d analyses.",
+          "mastery": "Familiarity",
+          "tier": null,
+          "xref": null
+        },
+        {
+          "number": "5",
+          "outcome": "Explain why potential aliasing limits sound program analysis and how alias analysis can help.",
+          "mastery": "Familiarity",
+          "tier": null,
+          "xref": null
+        },
+        {
+          "number": "6",
+          "outcome": "Use the results of a static analysis for program optimization and/or partial program correctness.",
+          "mastery": "Usage",
+          "tier": null,
+          "xref": null
+        }
+      ]
+    },
+    {
+      "ku": "Advanced Programming Constructs",
+      "tiers": {
+        "tier": "Elective",
+        "hours": null
+      },
+      "topics": [
+        {
+          "topic": "Lazy evaluation and infinite streams",
+          "tier": null,
+          "subtopics": []
+        },
+        {
+          "topic": "Control Abstractions: Exception Handling, Continuations, Monads",
+          "tier": null,
+          "subtopics": []
+        },
+        {
+          "topic": "Object-oriented abstractions: Multiple inheritance, Mixins, Traits, Multimethods",
+          "tier": null,
+          "subtopics": []
+        },
+        {
+          "topic": "Metaprogramming: Macros, Generative programming, Model-based development",
+          "tier": null,
+          "subtopics": []
+        },
+        {
+          "topic": "Module systems",
+          "tier": null,
+          "subtopics": []
+        },
+        {
+          "topic": "String manipulation via pattern-matching (regular expressions)",
+          "tier": null,
+          "subtopics": []
+        },
+        {
+          "topic": "Dynamic code evaluation (\u201ceval\u201d)",
+          "tier": null,
+          "subtopics": []
+        },
+        {
+          "topic": "Language support for checking assertions, invariants, and pre/post-conditions",
+          "tier": null,
+          "subtopics": []
+        }
+      ],
+      "hours": [],
+      "outcomes": [
+        {
+          "number": "1",
+          "outcome": "Use various advanced programming constructs and idioms correctly.",
+          "mastery": "Usage",
+          "tier": null,
+          "xref": null
+        },
+        {
+          "number": "2",
+          "outcome": "Discuss how various advanced programming constructs aim to improve program structure, software quality, and programmer productivity.",
+          "mastery": "Familiarity",
+          "tier": null,
+          "xref": null
+        },
+        {
+          "number": "3",
+          "outcome": "Discuss how various advanced programming constructs interact with the definition and implementation of other language features.",
+          "mastery": "Familiarity",
+          "tier": null,
+          "xref": null
+        }
+      ]
+    },
+    {
+      "ku": "Concurrency and Parallelism",
+      "tiers": {
+        "tier": "Elective",
+        "hours": null
+      },
+      "topics": [
+        {
+          "topic": "Constructs for thread-shared variables and shared-memory synchronization",
+          "tier": null,
+          "subtopics": []
+        },
+        {
+          "topic": "Actor models",
+          "tier": null,
+          "subtopics": []
+        },
+        {
+          "topic": "Futures",
+          "tier": null,
+          "subtopics": []
+        },
+        {
+          "topic": "Language support for data parallelism",
+          "tier": null,
+          "subtopics": []
+        },
+        {
+          "topic": "Models for passing messages between sequential processes",
+          "tier": null,
+          "subtopics": []
+        },
+        {
+          "topic": "Effect of memory-consistency models on language semantics and correct code generation",
+          "tier": null,
+          "subtopics": []
+        }
+      ],
+      "hours": [],
+      "outcomes": [
+        {
+          "number": "1",
+          "outcome": "Write correct concurrent programs using multiple programming models, such as shared memory, actors, futures, and data-parallelism primitives.",
+          "mastery": "Usage",
+          "tier": null,
+          "xref": null
+        },
+        {
+          "number": "2",
+          "outcome": "Use a message-passing model to analyze a communication protocol.",
+          "mastery": "Usage",
+          "tier": null,
+          "xref": null
+        },
+        {
+          "number": "3",
+          "outcome": "Explain why programming languages do not guarantee sequential consistency in the presence of data races and what programmers must do as a result.",
+          "mastery": "Familiarity",
+          "tier": null,
+          "xref": null
+        }
+      ]
+    },
+    {
+      "ku": "Type Systems",
+      "tiers": {
+        "tier": "Elective",
+        "hours": null
+      },
+      "topics": [
+        {
+          "topic": "Compositional type constructors, such as product types (for aggregates), sum types (for unions), function types, quantified types, and recursive types",
+          "tier": null,
+          "subtopics": []
+        },
+        {
+          "topic": "Type checking",
+          "tier": null,
+          "subtopics": []
+        },
+        {
+          "topic": "Type safety as preservation plus progress",
+          "tier": null,
+          "subtopics": []
+        },
+        {
+          "topic": "Type inference",
+          "tier": null,
+          "subtopics": []
+        },
+        {
+          "topic": "Static overloading",
+          "tier": null,
+          "subtopics": []
+        }
+      ],
+      "hours": [],
+      "outcomes": [
+        {
+          "number": "1",
+          "outcome": "Define a type system precisely and compositionally.",
+          "mastery": "Usage",
+          "tier": null,
+          "xref": null
+        },
+        {
+          "number": "2",
+          "outcome": "For various foundational type constructors, identify the values they describe and the invariants they enforce.",
+          "mastery": "Familiarity",
+          "tier": null,
+          "xref": null
+        },
+        {
+          "number": "3",
+          "outcome": "Precisely specify the invariants preserved by a sound type system.",
+          "mastery": "Familiarity",
+          "tier": null,
+          "xref": null
+        },
+        {
+          "number": "4",
+          "outcome": "Prove type safety for a simple language in terms of preservation and progress theorems.",
+          "mastery": "Usage",
+          "tier": null,
+          "xref": null
+        },
+        {
+          "number": "5",
+          "outcome": "Implement a unification-based type-inference algorithm for a simple language.",
+          "mastery": "Usage",
+          "tier": null,
+          "xref": null
+        },
+        {
+          "number": "6",
+          "outcome": "Explain how static overloading and associated resolution algorithms influence the dynamic behavior of programs.",
+          "mastery": "Familiarity",
+          "tier": null,
+          "xref": null
+        }
+      ]
+    },
+    {
+      "ku": "Formal Semantics",
+      "tiers": {
+        "tier": "Elective",
+        "hours": null
+      },
+      "topics": [
+        {
+          "topic": "Syntax vs. semantics",
+          "tier": null,
+          "subtopics": []
+        },
+        {
+          "topic": "Lambda Calculus",
+          "tier": null,
+          "subtopics": []
+        },
+        {
+          "topic": "Approaches to semantics: Operational, Denotational, Axiomatic",
+          "tier": null,
+          "subtopics": []
+        },
+        {
+          "topic": "Proofs by induction over language semantics",
+          "tier": null,
+          "subtopics": []
+        },
+        {
+          "topic": "Formal definitions and proofs for type systems (cross-reference PL/Type Systems)",
+          "tier": null,
+          "subtopics": []
+        },
+        {
+          "topic": "Parametricity (cross-reference PL/Type Systems)",
+          "tier": null,
+          "subtopics": []
+        },
+        {
+          "topic": "Using formal semantics for systems modeling",
+          "tier": null,
+          "subtopics": []
+        }
+      ],
+      "hours": [],
+      "outcomes": [
+        {
+          "number": "1",
+          "outcome": "Give a formal semantics for a small language.",
+          "mastery": "Usage",
+          "tier": null,
+          "xref": null
+        },
+        {
+          "number": "2",
+          "outcome": "Write a lambda-calculus program and show its evaluation to a normal form.",
+          "mastery": "Usage",
+          "tier": null,
+          "xref": null
+        },
+        {
+          "number": "3",
+          "outcome": "Discuss the different approaches of operational, denotational, and axiomatic semantics.",
+          "mastery": "Familiarity",
+          "tier": null,
+          "xref": null
+        },
+        {
+          "number": "4",
+          "outcome": "Use induction to prove properties of all programs in a language.",
+          "mastery": "Usage",
+          "tier": null,
+          "xref": null
+        },
+        {
+          "number": "5",
+          "outcome": "Use induction to prove properties of all programs in a language that are well-typed according to a formally defined type system.",
+          "mastery": "Usage",
+          "tier": null,
+          "xref": null
+        },
+        {
+          "number": "6",
+          "outcome": "Use parametricity to establish the behavior of code given only its type.",
+          "mastery": "Usage",
+          "tier": null,
+          "xref": null
+        },
+        {
+          "number": "7",
+          "outcome": "Use formal semantics to build a formal model of a software system other than a programming language.",
+          "mastery": "Usage",
+          "tier": null,
+          "xref": null
+        }
+      ]
+    },
+    {
+      "ku": "Language Pragmatics",
+      "tiers": {
+        "tier": "Elective",
+        "hours": null
+      },
+      "topics": [
+        {
+          "topic": "Principles of language design such as orthogonality",
+          "tier": null,
+          "subtopics": []
+        },
+        {
+          "topic": "Evaluation order, precedence, and associativity",
+          "tier": null,
+          "subtopics": []
+        },
+        {
+          "topic": "Eager vs. delayed evaluation",
+          "tier": null,
+          "subtopics": []
+        },
+        {
+          "topic": "Defining control and iteration constructs",
+          "tier": null,
+          "subtopics": []
+        },
+        {
+          "topic": "External calls and system libraries",
+          "tier": null,
+          "subtopics": []
+        }
+      ],
+      "hours": [],
+      "outcomes": [
+        {
+          "number": "1",
+          "outcome": "Discuss the role of concepts such as orthogonality and well-chosen defaults in language design.",
+          "mastery": "Familiarity",
+          "tier": null,
+          "xref": null
+        },
+        {
+          "number": "2",
+          "outcome": "Use crisp and objective criteria for evaluating language-design decisions.",
+          "mastery": "Usage",
+          "tier": null,
+          "xref": null
+        },
+        {
+          "number": "3",
+          "outcome": "Give an example program whose result can differ under different rules for evaluation order, precedence, or associativity.",
+          "mastery": "Usage",
+          "tier": null,
+          "xref": null
+        },
+        {
+          "number": "4",
+          "outcome": "Show uses of delayed evaluation, such as user-defined control abstractions.",
+          "mastery": "Familiarity",
+          "tier": null,
+          "xref": null
+        },
+        {
+          "number": "5",
+          "outcome": "Discuss the need for allowing calls to external calls and system libraries and the consequences for language implementation.",
+          "mastery": "Familiarity",
+          "tier": null,
+          "xref": null
+        }
+      ]
+    },
+    {
+      "ku": "Logic Programming",
+      "tiers": {
+        "tier": "Elective",
+        "hours": null
+      },
+      "topics": [
+        {
+          "topic": "Clausal representation of data structures and algorithms",
+          "tier": null,
+          "subtopics": []
+        },
+        {
+          "topic": "Unification",
+          "tier": null,
+          "subtopics": []
+        },
+        {
+          "topic": "Backtracking and search",
+          "tier": null,
+          "subtopics": []
+        },
+        {
+          "topic": "Cuts",
+          "tier": null,
+          "subtopics": []
+        }
+      ],
+      "hours": [],
+      "outcomes": [
+        {
+          "number": "1",
+          "outcome": "Use a logic language to implement a conventional algorithm.",
+          "mastery": "Usage",
+          "tier": null,
+          "xref": null
+        },
+        {
+          "number": "2",
+          "outcome": "Use a logic language to implement an algorithm employing implicit search using clauses, relations, and cuts.",
+          "mastery": "Usage",
+          "tier": null,
+          "xref": null
+        }
+      ]
+    }
+  ],
+  "references": []
+}
