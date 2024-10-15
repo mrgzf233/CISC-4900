@@ -3,12 +3,12 @@
 # Description
 This is my CISC 4900 Project, supervised by Professor Hui Chen. 
 
-The files that are being uploaded here are the tasks I worked on in the supervised project: Webvulmap(Mapping Security Vulnerability between Computer Science Body of Knowledge). 
+The files that are being uploaded here are the tasks I work on in the supervised project and are constantly updated as I work on the project: Webvulmap(Mapping Security Vulnerability between Computer Science Body of Knowledge). 
 The main repository is owned by my supervisor aka Professor Hui Chen, the public repository is linked here: https://github.com/RealVulnerabilityEdu/webvulmap/commits/main/
 
 Project website: https://secwebmap.streamlit.app
 
-Please note that both private and public repositories are the same, once the changes have been committed in the private repository it will then be done the same with the public repository. Afterwards I will then upload the files to this current repository.
+Please note that both private and public repositories are the same, once the changes have been committed in the private repository it will then be done the same with the public repository. Afterwards I will then upload the files to this current repository to showcase it. My Repository > Private > Public > My Repository
 The reason behind having two repositories is because of privacy reasons.
 
 ## Mapping Web App
