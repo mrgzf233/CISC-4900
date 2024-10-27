@@ -51,4 +51,5 @@ Task 1: Familiarize with the processing pipeline of parsing a knowledge area. Th
 Task 2: To develop a Python program that takes a JSON file as input. The program of the output is a single JSON object that contains all the KAs. This program should build upon the existing programs. 
 My approach to it is to manually add/read in the json files for now, then use a forloop to iterate to load the files and have them all dumped into the python dictionary list. 
 
-Task 3: 
+Task 3: To facilitate JSONinifying the curriculum document, a PDF file to a JSON object, we are creating a metadata file that specifies, Knowledge Area's begin and end page numbers in the PDF file. 
+	Also write a Python script that validates the integrity of the file.
