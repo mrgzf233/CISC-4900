@@ -1,0 +1,6 @@
+This is the third or the last of the three. In this task, write a Python script that validates the integrity of the file. The validation, to the minimum should include:
+
+1.page numbers are correctly ordered, i.e., end page > start page
+2.there is no gaps between previous end page and next start page
+3.short_ka are correctly formatted
+4.short_ka and ka are consistent (short_ka is derived from ka).
