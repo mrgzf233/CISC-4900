@@ -1,0 +1,6 @@
+We want to use the csv file you contributed as the input, and produce a single JSON file for the curriculum that contains all the knowledge areas.
+
+There can be many alternative designs, for instance, from the perspective of programming languages,
+
+implement it as a shell script
+implement it as a Python script.
