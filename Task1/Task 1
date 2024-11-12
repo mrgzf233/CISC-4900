@@ -1,0 +1,8 @@
+Familiarize with the processing pipeline of parsing a knowledge area. The input to the pipeline is the CS2013 pdf file, and the output is a JSON file for the selected knowledge area.
+
+Select 3 knowledge areas that have been parsed.
+Update this issue description by adding the 3 knowledge areas
+Parse the 3 knowledge areas.
+
+
+After running the scripts, the pdf contents should then be converted from pdf > txt > json.
