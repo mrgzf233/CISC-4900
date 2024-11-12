@@ -1,0 +1,13 @@
+This task is to develop a Python program that takes a JSON file as input. The JSON file should have a format like the following:
+
+[
+  { 
+    "short-ka": "short name of KA",
+    "long-ka": "long name of KA",
+    "begin-page:  a number,
+    "end-page": a number
+  },
+  ...
+]
+
+The program the output a single JSON object that contains all the KAs. This program should build upon the existing programs.
