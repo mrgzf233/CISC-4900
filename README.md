@@ -53,3 +53,5 @@ My approach to it is to manually add/read in the json files for now, then use a 
 
 Task 3: To facilitate JSONinifying the curriculum document, a PDF file to a JSON object, we are creating a metadata file that specifies, Knowledge Area's begin and end page numbers in the PDF file. 
 	Also write a Python script that validates the integrity of the file.
+
+Task 4: Sse the csv file in Task 3 as the input, and produce a single JSON file for the curriculum that contains all the knowledge areas using a python/shell script.
