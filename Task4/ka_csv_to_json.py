@@ -3,7 +3,6 @@
 import argparse
 import csv
 import json
-import os
 from validate_ka import validate_csv_content
 # File name, method name
 
